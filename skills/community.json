@@ -702,6 +702,14 @@
     ]
   },
   {
+    "name": "diagnose",
+    "description": "Diagnose skill for AI agent workflows",
+    "source": "mattpocock/skills/diagnose",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "dialogue-audio",
     "description": "Dialogue Audio skill for AI agent workflows",
     "source": "inference-sh-9/skills/dialogue-audio",
@@ -874,6 +882,14 @@
     ]
   },
   {
+    "name": "flux-kontext",
+    "description": "Flux Kontext skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/flux-kontext",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "fun-brainstorming",
     "description": "Fun Brainstorming skill for AI agent workflows",
     "source": "roin-orca/skills/fun-brainstorming",
@@ -938,11 +954,37 @@
     ]
   },
   {
+    "name": "gpt-image-2",
+    "description": "Gpt Image 2 skill for AI agent workflows",
+    "source": "agentspace-so/agent-skills/gpt-image-2",
+    "tags": [
+      "ai",
+      "workflow"
+    ]
+  },
+  {
+    "name": "gpt-image-edit",
+    "description": "Gpt Image Edit skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/gpt-image-edit",
+    "tags": [
+      "ai",
+      "workflow"
+    ]
+  },
+  {
     "name": "grill-me",
     "description": "Grill Me skill for AI agent workflows",
     "source": "mattpocock/skills/grill-me",
     "tags": [
       "workflow"
+    ]
+  },
+  {
+    "name": "grill-with-docs",
+    "description": "Grill With Docs skill for AI agent workflows",
+    "source": "mattpocock/skills/grill-with-docs",
+    "tags": [
+      "docs"
     ]
   },
   {
@@ -954,10 +996,27 @@
     ]
   },
   {
+    "name": "happyhorse-1-0",
+    "description": "Happyhorse 1 0 skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/happyhorse-1-0",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "harden",
     "description": "Harden skill for AI agent workflows",
     "source": "pbakaus/impeccable/harden",
     "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "image-edit",
+    "description": "Image Edit skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/image-edit",
+    "tags": [
+      "ai",
       "workflow"
     ]
   },
@@ -1018,6 +1077,14 @@
     "source": "inference-sh-9/skills/javascript-sdk",
     "tags": [
       "frontend"
+    ]
+  },
+  {
+    "name": "just-scrape",
+    "description": "Just Scrape skill for AI agent workflows",
+    "source": "scrapegraphai/just-scrape/just-scrape",
+    "tags": [
+      "workflow"
     ]
   },
   {
@@ -1121,6 +1188,14 @@
     "name": "lark-minutes",
     "description": "Lark Minutes skill for AI agent workflows",
     "source": "larksuite/cli/lark-minutes",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "lark-okr",
+    "description": "Lark Okr skill for AI agent workflows",
+    "source": "larksuite/cli/lark-okr",
     "tags": [
       "workflow"
     ]
@@ -1308,6 +1383,14 @@
     "name": "nano-banana-2",
     "description": "Nano Banana 2 skill for AI agent workflows",
     "source": "inference-sh-9/skills/nano-banana-2",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "nano-banana-edit",
+    "description": "Nano Banana Edit skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/nano-banana-edit",
     "tags": [
       "workflow"
     ]
@@ -1779,6 +1862,14 @@
     ]
   },
   {
+    "name": "seedance-v2",
+    "description": "Seedance V2 skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/seedance-v2",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "seedance2-api",
     "description": "Seedance2 video generation API integration and workflow",
     "source": "hexiaochun/seedance2-api/seedance2-api",
@@ -1809,6 +1900,14 @@
     "tags": [
       "seo",
       "marketing"
+    ]
+  },
+  {
+    "name": "setup-matt-pocock-skills",
+    "description": "Setup Matt Pocock Skills skill for AI agent workflows",
+    "source": "mattpocock/skills/setup-matt-pocock-skills",
+    "tags": [
+      "workflow"
     ]
   },
   {
@@ -2057,9 +2156,33 @@
     ]
   },
   {
+    "name": "to-issues",
+    "description": "To Issues skill for AI agent workflows",
+    "source": "mattpocock/skills/to-issues",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "to-prd",
+    "description": "To Prd skill for AI agent workflows",
+    "source": "mattpocock/skills/to-prd",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "tools-ui",
     "description": "Tools Ui skill for AI agent workflows",
     "source": "inference-sh-9/skills/tools-ui",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "triage",
+    "description": "Triage skill for AI agent workflows",
+    "source": "mattpocock/skills/triage",
     "tags": [
       "workflow"
     ]
@@ -2163,6 +2286,14 @@
     ]
   },
   {
+    "name": "video-edit",
+    "description": "Video Edit skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/video-edit",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "video-prompting-guide",
     "description": "Video Prompting Guide skill for AI agent workflows",
     "source": "inference-sh-9/skills/video-prompting-guide",
@@ -2186,6 +2317,14 @@
     "tags": [
       "vue",
       "frontend"
+    ]
+  },
+  {
+    "name": "wan-2-7",
+    "description": "Wan 2 7 skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/wan-2-7",
+    "tags": [
+      "workflow"
     ]
   },
   {
@@ -2229,6 +2368,14 @@
     ]
   },
   {
+    "name": "write-a-skill",
+    "description": "Write A Skill skill for AI agent workflows",
+    "source": "mattpocock/skills/write-a-skill",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "xdrop",
     "description": "Xdrop skill for AI agent workflows",
     "source": "xixu-me/skills/xdrop",
@@ -2251,6 +2398,14 @@
     "tags": [
       "design",
       "frontend"
+    ]
+  },
+  {
+    "name": "zoom-out",
+    "description": "Zoom Out skill for AI agent workflows",
+    "source": "mattpocock/skills/zoom-out",
+    "tags": [
+      "workflow"
     ]
   }
 ]
