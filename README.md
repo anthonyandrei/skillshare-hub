@@ -46,7 +46,7 @@ skillshare install <source>
 ## Skills Catalog
 
 <!-- CATALOG:START -->
-**404 skills** across 11 categories — browse via `skillshare search --hub` or the Web UI
+**408 skills** across 11 categories — browse via `skillshare search --hub` or the Web UI
 
 ### Frontend (24)
 
@@ -64,7 +64,7 @@ skillshare install <source>
 - [**nuxt**](https://github.com/antfu/skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Nuxt.js framework best practices and server-side rendering patterns
 - [**pinia**](https://github.com/antfu/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Pinia state management best practices for Vue applications
 - [**react-components**](https://github.com/google-labs-code/stitch-skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — React component patterns and best practices from Google Labs
-- [**react-doctor**](https://github.com/millionco/react-doctor) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Scans your React codebase for security, performance, correctness, and architecture issues. Outputs a 0-100 score with actionable diagnostics.
+- [**react-doctor**](https://github.com/millionco/react-doctor) ![risk-low](https://img.shields.io/badge/risk-low-green) — Scans your React codebase for security, performance, correctness, and architecture issues. Outputs a 0-100 score with actionable diagnostics.
 - [**react-native-best-practices**](https://github.com/callstackincubator/agent-skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — React Native best practices and performance optimization from Callstack
 - [**remotion**](https://github.com/google-labs-code/stitch-skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Remotion video creation framework patterns from Google Labs
 - [**remotion-render**](https://github.com/inference-sh-6/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Cloud-based Remotion video rendering via inference.sh
@@ -85,47 +85,47 @@ skillshare install <source>
 <details>
 <summary>Show 34 skills</summary>
 
-- [**ab-test-setup**](https://github.com/coreyhaines31/marketingskills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Set up and run A/B tests for marketing optimization
+- [**ab-test-setup**](https://github.com/coreyhaines31/marketingskills) — Set up and run A/B tests for marketing optimization
 - [**ai-content-pipeline**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Ai Content Pipeline skill for AI agent workflows
 - [**ai-marketing-videos**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Ai Marketing Videos skill for AI agent workflows
 - [**ai-seo**](https://github.com/coreyhaines31/marketingskills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Ai Seo skill for AI agent workflows
 - [**ai-social-media-content**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Ai Social Media Content skill for AI agent workflows
-- [**analytics-tracking**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Set up analytics tracking and measurement plans for marketing
+- [**analytics-tracking**](https://github.com/coreyhaines31/marketingskills) — Set up analytics tracking and measurement plans for marketing
 - [**backlink-analyzer**](https://github.com/aaron-he-zhu/seo-geo-claude-skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — SEO backlink analysis and link building strategy tool
-- [**competitor-alternatives**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Analyze competitors and craft alternative positioning strategies
+- [**competitor-alternatives**](https://github.com/coreyhaines31/marketingskills) — Analyze competitors and craft alternative positioning strategies
 - [**content-repurposing**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Content Repurposing skill for AI agent workflows
 - [**content-strategy**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Develop content marketing strategy and editorial plans
 - [**copy-editing**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Edit and improve marketing copy for clarity and impact
 - [**copywriting**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Write persuasive marketing copy and sales content
-- [**email-sequence**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Design email marketing sequences and drip campaign automations
-- [**form-cro**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Optimize form design and user flow for higher conversion rates
-- [**free-tool-strategy**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Create free tools as marketing lead generation and growth strategy
-- [**launch-strategy**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Plan and execute product launch strategies and go-to-market plans
+- [**email-sequence**](https://github.com/coreyhaines31/marketingskills) — Design email marketing sequences and drip campaign automations
+- [**form-cro**](https://github.com/coreyhaines31/marketingskills) — Optimize form design and user flow for higher conversion rates
+- [**free-tool-strategy**](https://github.com/coreyhaines31/marketingskills) — Create free tools as marketing lead generation and growth strategy
+- [**launch-strategy**](https://github.com/coreyhaines31/marketingskills) — Plan and execute product launch strategies and go-to-market plans
 - [**linkedin-content**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Linkedin Content skill for AI agent workflows
 - [**marketing-ideas**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Generate creative marketing campaign ideas and growth strategies
 - [**marketing-psychology**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Apply psychological principles to marketing and persuasion strategies
-- [**onboarding-cro**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Optimize user onboarding flows for activation and conversion
-- [**page-cro**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Optimize landing pages for higher conversion rates
-- [**paid-ads**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Create and optimize paid advertising campaigns across platforms
-- [**paywall-upgrade-cro**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Optimize paywall and upgrade prompts for subscription conversion
-- [**popup-cro**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Design and optimize marketing popups for conversion and engagement
-- [**pricing-strategy**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Design and optimize pricing models, tiers, and monetization strategies
-- [**product-marketing-context**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Define product positioning, messaging, and marketing context
+- [**onboarding-cro**](https://github.com/coreyhaines31/marketingskills) — Optimize user onboarding flows for activation and conversion
+- [**page-cro**](https://github.com/coreyhaines31/marketingskills) — Optimize landing pages for higher conversion rates
+- [**paid-ads**](https://github.com/coreyhaines31/marketingskills) — Create and optimize paid advertising campaigns across platforms
+- [**paywall-upgrade-cro**](https://github.com/coreyhaines31/marketingskills) — Optimize paywall and upgrade prompts for subscription conversion
+- [**popup-cro**](https://github.com/coreyhaines31/marketingskills) — Design and optimize marketing popups for conversion and engagement
+- [**pricing-strategy**](https://github.com/coreyhaines31/marketingskills) — Design and optimize pricing models, tiers, and monetization strategies
+- [**product-marketing-context**](https://github.com/coreyhaines31/marketingskills) — Define product positioning, messaging, and marketing context
 - [**programmatic-seo**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Create programmatic SEO pages at scale for organic traffic growth
-- [**referral-program**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Design and implement customer referral programs for growth
-- [**schema-markup**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Implement structured data and schema markup for better SEO
+- [**referral-program**](https://github.com/coreyhaines31/marketingskills) — Design and implement customer referral programs for growth
+- [**schema-markup**](https://github.com/coreyhaines31/marketingskills) — Implement structured data and schema markup for better SEO
 - [**seo-audit**](https://github.com/coreyhaines31/marketingskills) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Audit website SEO and provide actionable optimization recommendations
 - [**seo-content-brief**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Seo Content Brief skill for AI agent workflows
 - [**seo-geo**](https://github.com/resciencelab/opc-skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Geographic SEO optimization and local search strategies
-- [**signup-flow-cro**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Optimize signup flows and registration for higher conversion
-- [**social-content**](https://github.com/coreyhaines31/marketingskills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Create engaging social media content and posts across platforms
+- [**signup-flow-cro**](https://github.com/coreyhaines31/marketingskills) — Optimize signup flows and registration for higher conversion
+- [**social-content**](https://github.com/coreyhaines31/marketingskills) — Create engaging social media content and posts across platforms
 
 </details>
 
-### Workflow (189)
+### Workflow (192)
 
 <details>
-<summary>Show 189 skills</summary>
+<summary>Show 192 skills</summary>
 
 - [**ad-creative**](https://github.com/coreyhaines31/marketingskills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Ad Creative skill for AI agent workflows
 - [**adapt**](https://github.com/pbakaus/impeccable) — Adapt skill for AI agent workflows
@@ -153,6 +153,7 @@ skillshare install <source>
 - [**clarify**](https://github.com/pbakaus/impeccable) — Clarify skill for AI agent workflows
 - [**code-refactoring**](https://github.com/supercent-io/skills-template) — Code Refactoring skill for AI agent workflows
 - [**codebase-search**](https://github.com/supercent-io/skills-template) — Codebase Search skill for AI agent workflows
+- [**codex-pet**](https://github.com/agentspace-so/runcomfy-agent-skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Codex Pet skill for AI agent workflows
 - [**colorize**](https://github.com/pbakaus/impeccable) — Colorize skill for AI agent workflows
 - [**competitor-teardown**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Competitor Teardown skill for AI agent workflows
 - [**critique**](https://github.com/pbakaus/impeccable) — Critique skill for AI agent workflows
@@ -180,9 +181,10 @@ skillshare install <source>
 - [**firebase-app-hosting-basics**](https://github.com/firebase/agent-skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Firebase App Hosting Basics skill for AI agent workflows
 - [**firebase-basics**](https://github.com/firebase/agent-skills) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Firebase Basics skill for AI agent workflows
 - [**firebase-hosting-basics**](https://github.com/firebase/agent-skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Firebase Hosting Basics skill for AI agent workflows
+- [**flux-2-klein**](https://github.com/agentspace-so/runcomfy-agent-skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Flux 2 Klein skill for AI agent workflows
 - [**flux-kontext**](https://github.com/agentspace-so/runcomfy-agent-skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Flux Kontext skill for AI agent workflows
 - [**gemini-computer-use**](https://github.com/am-will/codex-skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Gemini Computer Use skill for AI agent workflows
-- [**gh-cli**](https://github.com/github/awesome-copilot) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Gh Cli skill for AI agent workflows
+- [**gh-cli**](https://github.com/github/awesome-copilot) — Gh Cli skill for AI agent workflows
 - [**git-commit**](https://github.com/github/awesome-copilot) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Git Commit skill for AI agent workflows
 - [**git-workflow**](https://github.com/supercent-io/skills-template) — Git Workflow skill for AI agent workflows
 - [**google-veo**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Google Veo skill for AI agent workflows
@@ -194,6 +196,7 @@ skillshare install <source>
 - [**improve-codebase-architecture**](https://github.com/mattpocock/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Improve Codebase Architecture skill for AI agent workflows
 - [**infsh-cli**](https://github.com/inferen-sh/skills) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Infsh Cli skill for AI agent workflows
 - [**just-scrape**](https://github.com/scrapegraphai/just-scrape) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Just Scrape skill for AI agent workflows
+- [**kling-3-0**](https://github.com/agentspace-so/runcomfy-agent-skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Kling 3 0 skill for AI agent workflows
 - [**lark-approval**](https://github.com/larksuite/cli) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Lark Approval skill for AI agent workflows
 - [**lark-attendance**](https://github.com/larksuite/cli) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Lark Attendance skill for AI agent workflows
 - [**lark-base**](https://github.com/larksuite/cli) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Lark Base skill for AI agent workflows
@@ -205,7 +208,7 @@ skillshare install <source>
 - [**lark-minutes**](https://github.com/larksuite/cli) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Lark Minutes skill for AI agent workflows
 - [**lark-okr**](https://github.com/larksuite/cli) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Lark Okr skill for AI agent workflows
 - [**lark-openapi-explorer**](https://github.com/larksuite/cli) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Lark Openapi Explorer skill for AI agent workflows
-- [**lark-shared**](https://github.com/larksuite/cli) ![risk-low](https://img.shields.io/badge/risk-low-green) — Lark Shared skill for AI agent workflows
+- [**lark-shared**](https://github.com/larksuite/cli) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Lark Shared skill for AI agent workflows
 - [**lark-sheets**](https://github.com/larksuite/cli) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Lark Sheets skill for AI agent workflows
 - [**lark-skill-maker**](https://github.com/larksuite/cli) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Lark Skill Maker skill for AI agent workflows
 - [**lark-task**](https://github.com/larksuite/cli) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Lark Task skill for AI agent workflows
@@ -319,10 +322,10 @@ skillshare install <source>
 
 </details>
 
-### Agent (70)
+### Agent (71)
 
 <details>
-<summary>Show 70 skills</summary>
+<summary>Show 71 skills</summary>
 
 - [**agent-browser**](https://github.com/vercel-labs/agent-browser) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Browser automation agent for web page interactions using Playwright
 - [**agent-configuration**](https://github.com/supercent-io/skills-template) — Agent Configuration skill for AI agent workflows
@@ -333,6 +336,7 @@ skillshare install <source>
 - [**agentation**](https://github.com/benjitaylor/agentation) ![risk-low](https://img.shields.io/badge/risk-low-green) — Agent coordination framework for multi-agent task execution
 - [**agentic-development-principles**](https://github.com/supercent-io/skills-template) — Agentic Development Principles skill for AI agent workflows
 - [**agentic-workflow**](https://github.com/supercent-io/skills-template) — Agentic Workflow skill for AI agent workflows
+- [**agentspace**](https://github.com/agentspace-so/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Agentspace skill for AI agent workflows
 - [**ai-automation-workflows**](https://github.com/inference-sh-9/skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Ai Automation Workflows skill for AI agent workflows
 - [**ai-avatar-video**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Ai Avatar Video skill for AI agent workflows
 - [**ai-image-generation**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Ai Image Generation skill for AI agent workflows
@@ -475,7 +479,7 @@ skillshare install <source>
 - [**convex-quickstart**](https://github.com/get-convex/agent-skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Convex Quickstart skill for AI agent workflows
 - [**golang-pro**](https://github.com/jeffallan/claude-skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Go programming best practices, idioms, and performance patterns
 - [**laravel-specialist**](https://github.com/jeffallan/claude-skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Laravel PHP framework best practices and application patterns
-- [**neon-postgres**](https://github.com/neondatabase/agent-skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Neon Postgres skill for AI agent workflows
+- [**neon-postgres**](https://github.com/neondatabase/agent-skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Neon Postgres skill for AI agent workflows
 - [**python-executor**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Python Executor skill for AI agent workflows
 - [**python-sdk**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Python Sdk skill for AI agent workflows
 - [**supabase-postgres-best-practices**](https://github.com/supabase/agent-skills) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — PostgreSQL best practices, query optimization, and security for Supabase

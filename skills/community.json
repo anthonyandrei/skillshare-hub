@@ -82,6 +82,14 @@
     ]
   },
   {
+    "name": "agentspace",
+    "description": "Agentspace skill for AI agent workflows",
+    "source": "agentspace-so/skills/agentspace",
+    "tags": [
+      "agent"
+    ]
+  },
+  {
     "name": "ai-automation-workflows",
     "description": "Ai Automation Workflows skill for AI agent workflows",
     "source": "inference-sh-9/skills/ai-automation-workflows",
@@ -531,6 +539,14 @@
     ]
   },
   {
+    "name": "codex-pet",
+    "description": "Codex Pet skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/codex-pet",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "cold-email",
     "description": "Cold Email skill for AI agent workflows",
     "source": "coreyhaines31/marketingskills/cold-email",
@@ -873,6 +889,14 @@
     ]
   },
   {
+    "name": "flux-2-klein",
+    "description": "Flux 2 Klein skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/flux-2-klein",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "flux-image",
     "description": "Flux Image skill for AI agent workflows",
     "source": "inference-sh-9/skills/flux-image",
@@ -1083,6 +1107,14 @@
     "name": "just-scrape",
     "description": "Just Scrape skill for AI agent workflows",
     "source": "scrapegraphai/just-scrape/just-scrape",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "kling-3-0",
+    "description": "Kling 3 0 skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/kling-3-0",
     "tags": [
       "workflow"
     ]
