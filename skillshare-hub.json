@@ -68,14 +68,6 @@
       ]
     },
     {
-      "name": "ai-music",
-      "description": "ai music skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/ai-music",
-      "tags": [
-        "ai"
-      ]
-    },
-    {
       "name": "ai-video-generation",
       "description": "Ai Video Generation skill for AI agent workflows",
       "source": "inference-sh-9/skills/ai-video-generation",
@@ -606,14 +598,6 @@
       ]
     },
     {
-      "name": "controlnet-pose",
-      "description": "controlnet pose skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/controlnet-pose",
-      "tags": [
-        "workflow"
-      ]
-    },
-    {
       "name": "copy-editing",
       "description": "Edit and improve marketing copy for clarity and impact",
       "source": "coreyhaines31/marketingskills/copy-editing",
@@ -696,6 +680,14 @@
       ]
     },
     {
+      "name": "entra-agent-id",
+      "description": "entra agent id skill for AI agent workflows",
+      "source": "microsoft/azure-skills/entra-agent-id",
+      "tags": [
+        "agent"
+      ]
+    },
+    {
       "name": "entra-app-registration",
       "description": "Microsoft Entra ID app registration and authentication setup",
       "source": "microsoft/github-copilot-for-azure/entra-app-registration",
@@ -738,14 +730,6 @@
       "tags": [
         "design",
         "frontend"
-      ]
-    },
-    {
-      "name": "face-swap",
-      "description": "face swap skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/face-swap",
-      "tags": [
-        "workflow"
       ]
     },
     {
@@ -873,22 +857,6 @@
       "tags": [
         "ai",
         "workflow"
-      ]
-    },
-    {
-      "name": "image-inpainting",
-      "description": "image inpainting skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/image-inpainting",
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "name": "image-outpainting",
-      "description": "image outpainting skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/image-outpainting",
-      "tags": [
-        "ai"
       ]
     },
     {
@@ -1131,14 +1099,6 @@
       "source": "coreyhaines31/marketingskills/launch-strategy",
       "tags": [
         "marketing"
-      ]
-    },
-    {
-      "name": "lipsync",
-      "description": "lipsync skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/lipsync",
-      "tags": [
-        "workflow"
       ]
     },
     {
@@ -1462,14 +1422,6 @@
       ]
     },
     {
-      "name": "runcomfy-cli",
-      "description": "runcomfy cli skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/runcomfy-cli",
-      "tags": [
-        "workflow"
-      ]
-    },
-    {
       "name": "running-claude-code-via-litellm-copilot",
       "description": "Running Claude Code Via Litellm Copilot skill for AI agent workflows",
       "source": "xixu-me/skills/running-claude-code-via-litellm-copilot",
@@ -1766,30 +1718,6 @@
       "source": "agentspace-so/runcomfy-agent-skills/video-edit",
       "tags": [
         "workflow"
-      ]
-    },
-    {
-      "name": "video-extend",
-      "description": "video extend skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/video-extend",
-      "tags": [
-        "workflow"
-      ]
-    },
-    {
-      "name": "video-inpainting",
-      "description": "video inpainting skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/video-inpainting",
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "name": "video-outpainting",
-      "description": "video outpainting skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/video-outpainting",
-      "tags": [
-        "ai"
       ]
     },
     {

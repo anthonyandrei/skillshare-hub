@@ -203,6 +203,29 @@ infer_description() {
   echo "$desc"
 }
 
+# --- Security audit gate ---
+# Newcomers flagged HIGH/CRITICAL by `skillshare audit` are not added, so the
+# community list never collects skills that would fail the PR audit job.
+AUDIT_AVAILABLE=true
+if ! command -v skillshare >/dev/null 2>&1; then
+  AUDIT_AVAILABLE=false
+  echo "  WARN: skillshare CLI not found — skipping security audit (no risk filtering)."
+fi
+
+# Returns 0 if safe to include, 1 if HIGH/CRITICAL risk.
+audit_risk_ok() {
+  local dir="$1"
+  [ "$AUDIT_AVAILABLE" = false ] && return 0
+  local risk
+  # Strip trailing non-JSON output (e.g. upgrade notices) before parsing.
+  risk=$(skillshare audit "$dir" --threshold high --format json --yes 2>/dev/null \
+    | sed '/^$/,$d' | jq -r '.summary.riskLabel // empty' 2>/dev/null | tr '[:lower:]' '[:upper:]')
+  case "$risk" in
+    HIGH|CRITICAL) return 1 ;;
+    *) return 0 ;;
+  esac
+}
+
 # --- Clone repos and validate skill directories exist ---
 echo ""
 echo "Validating skill directories..."
@@ -249,17 +272,19 @@ validated_skills=$(echo "$new_skills" | jq -c '.[]' | while IFS= read -r skill_o
     fi
   fi
 
-  if [ -n "$found" ]; then
+  if [ -z "$found" ]; then
+    echo "  SKIP: $sname — no directory found in $ssource" >&2
+  elif audit_risk_ok "$clone_dir/$found"; then
     echo "$skill_obj"
   else
-    echo "  SKIP: $sname — no directory found in $ssource" >&2
+    echo "  SKIP: $sname — failed security audit (HIGH/CRITICAL) in $ssource" >&2
   fi
 done | jq -s '.')
 
 validated_count=$(echo "$validated_skills" | jq 'length')
 skipped_count=$((new_count - validated_count))
 
-echo "Validated: $validated_count | Skipped (no directory): $skipped_count"
+echo "Validated: $validated_count | Skipped (no dir / failed audit): $skipped_count"
 
 if [ "$validated_count" -eq 0 ] && [ "$removed_count" -eq 0 ]; then
   echo "No changes after validation."
