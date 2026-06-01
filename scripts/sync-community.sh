@@ -46,9 +46,17 @@ if [ -z "$skills_json" ] || ! echo "$skills_json" | jq -e '.[0].name' >/dev/null
   # Fallback: try node to parse (more reliable for complex escaping)
   skills_json=$(node -e "
     const html = require('fs').readFileSync('/dev/stdin', 'utf8');
-    const match = html.match(/self\.__next_f\.push\(\[1,\"(.*?initialSkills.*?)\"\]\)/s);
-    if (!match) { process.exit(1); }
-    const inner = JSON.parse('\"' + match[1] + '\"');
+    // Match each push([1,\"<escaped>\"]) individually — the inner payload is a
+    // JSON-escaped string, so a single push never contains an unescaped quote.
+    // (A lazy .*? across pushes would splice in other pushes' raw quotes and
+    // break JSON.parse, since initialSkills now lives in a later chunk.)
+    const re = /self\.__next_f\.push\(\[1,\"((?:\\\\.|[^\"\\\\])*)\"\]\)/g;
+    let m, payload = null;
+    while ((m = re.exec(html)) !== null) {
+      if (m[1].includes('initialSkills')) { payload = m[1]; break; }
+    }
+    if (!payload) { process.exit(1); }
+    const inner = JSON.parse('\"' + payload + '\"');
     const idx = inner.indexOf('\"initialSkills\":');
     const arrStart = idx + '\"initialSkills\":'.length;
     let depth = 0, i = arrStart;
@@ -69,32 +77,58 @@ echo "Fetched $fetched_count community skills"
 # Take top N
 top_skills=$(echo "$skills_json" | jq --argjson n "$TOP_N" '.[:$n]')
 
-# --- Diff against existing hub ---
-existing_names=$(jq -r '[.skills[].name] | .[]' "$HUB_FILE" | sort -u)
+community_file="$SKILLS_DIR/community.json"
 
-# Deduplicate by name (keep first = higher ranked), exclude existing, filter invalid names
-new_skills=$(echo "$top_skills" | jq --argjson existing "$(echo "$existing_names" | jq -R . | jq -s .)" '
+# --- Rebuild community list to mirror the current top N ---
+# The community list is a snapshot of the leaderboard, not an ever-growing log:
+# skills that fall out of the top N are removed, newcomers are added. Entries
+# from the owner/curated files (everything in the hub that is not community)
+# are excluded so we never duplicate them.
+official_names=$(jq -n \
+  --slurpfile hub "$HUB_FILE" \
+  --slurpfile comm "$community_file" \
+  '([$hub[0].skills[].name] - [$comm[0][].name]) | unique')
+
+# Ranked candidates: valid names, not already curated, deduped (keep higher rank)
+ranked=$(echo "$top_skills" | jq --argjson official "$official_names" '
   [.[] |
     select(.name | test("^[a-z0-9][a-z0-9-]*$")) |
-    select(.name as $n | ($existing | index($n)) == null)
+    select(.name as $n | ($official | index($n)) == null)
   ] |
   reduce .[] as $item ({}; if .[$item.name] then . else . + {($item.name): $item} end) |
-  [.[]] | sort_by(.name)
+  [.[]]
+')
+ranked_names=$(echo "$ranked" | jq '[.[].name]')
+
+# Keep existing community entries still on the leaderboard (preserves reviewed
+# descriptions/tags); collect newcomers needing validation; track removals.
+kept=$(jq --argjson ranked "$ranked_names" \
+  '[.[] | select(.name as $n | ($ranked | index($n)) != null)]' "$community_file")
+removed_names=$(jq --argjson ranked "$ranked_names" \
+  '[.[] | select(.name as $n | ($ranked | index($n)) == null) | .name]' "$community_file")
+existing_community_names=$(jq '[.[].name]' "$community_file")
+new_skills=$(echo "$ranked" | jq --argjson existing "$existing_community_names" '
+  [.[] | select(.name as $n | ($existing | index($n)) == null)] | sort_by(.name)
 ')
 
 new_count=$(echo "$new_skills" | jq 'length')
+kept_count=$(echo "$kept" | jq 'length')
+removed_count=$(echo "$removed_names" | jq 'length')
 
-if [ "$new_count" -eq 0 ]; then
-  echo "No new skills to add. Hub is up to date."
-  exit 0
-fi
-
-echo "Found $new_count new skills to add"
+echo "Top $TOP_N → keep $kept_count existing, $new_count new candidates, $removed_count to remove"
 
 if [ "$DRY_RUN" = true ]; then
   echo ""
-  echo "=== DRY RUN — would add these skills ==="
-  echo "$new_skills" | jq -r '.[] | "  \(.name) (\(.source))"'
+  echo "=== DRY RUN ==="
+  echo "--- Would ADD ($new_count) ---"
+  echo "$new_skills" | jq -r '.[] | "  + \(.name) (\(.source))"'
+  echo "--- Would REMOVE ($removed_count) ---"
+  echo "$removed_names" | jq -r '.[] | "  - \(.)"'
+  exit 0
+fi
+
+if [ "$new_count" -eq 0 ] && [ "$removed_count" -eq 0 ]; then
+  echo "Community list already matches top $TOP_N. Nothing to do."
   exit 0
 fi
 
@@ -218,15 +252,13 @@ skipped_count=$((new_count - validated_count))
 
 echo "Validated: $validated_count | Skipped (no directory): $skipped_count"
 
-if [ "$validated_count" -eq 0 ]; then
-  echo "No valid new skills to add after validation."
+if [ "$validated_count" -eq 0 ] && [ "$removed_count" -eq 0 ]; then
+  echo "No changes after validation."
   rm -rf "$clone_cache"
   exit 0
 fi
 
-# --- Generate entries and write to community.json ---
-community_file="$SKILLS_DIR/community.json"
-
+# --- Generate entries for newcomers ---
 new_entries="[]"
 
 while IFS=$'\t' read -r name source skill_id; do
@@ -250,12 +282,12 @@ while IFS=$'\t' read -r name source skill_id; do
   new_entries=$(echo "$new_entries" | jq --argjson e "$entry" '. + [$e]')
 done < <(echo "$validated_skills" | jq -r '.[] | [.name, .source, .skillId] | @tsv')
 
-# Merge into community.json
-existing=$(cat "$community_file")
-merged=$(echo "$existing" | jq --argjson new "$new_entries" '. + $new | sort_by(.name)')
+# Rebuild community.json = kept (still on leaderboard) + validated newcomers
+merged=$(jq -n --argjson keep "$kept" --argjson new "$new_entries" '$keep + $new | sort_by(.name)')
 echo "$merged" | jq '.' > "$community_file"
 
-echo "Added $validated_count skills to $community_file"
+total_count=$(echo "$merged" | jq 'length')
+echo "Community list rebuilt: $kept_count kept + $validated_count added − $removed_count removed = $total_count total"
 
 # Rebuild hub JSON
 ./scripts/build.sh

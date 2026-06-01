@@ -1,8 +1,8 @@
 [
   {
-    "name": "ad-creative",
-    "description": "Ad Creative skill for AI agent workflows",
-    "source": "coreyhaines31/marketingskills/ad-creative",
+    "name": "ace-step",
+    "description": "ace step skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/ace-step",
     "tags": [
       "workflow"
     ]
@@ -16,85 +16,11 @@
     ]
   },
   {
-    "name": "agent-configuration",
-    "description": "Agent Configuration skill for AI agent workflows",
-    "source": "supercent-io/skills-template/agent-configuration",
-    "tags": [
-      "agent"
-    ]
-  },
-  {
-    "name": "agent-email-cli",
-    "description": "Agent Email Cli skill for AI agent workflows",
-    "source": "zaddy6/agent-email-skill/agent-email-cli",
-    "tags": [
-      "agent"
-    ]
-  },
-  {
-    "name": "agent-evaluation",
-    "description": "Agent Evaluation skill for AI agent workflows",
-    "source": "supercent-io/skills-template/agent-evaluation",
-    "tags": [
-      "agent"
-    ]
-  },
-  {
-    "name": "agent-tools",
-    "description": "Run 150+ AI apps in the cloud via inference.sh CLI — image, video, LLM, search, and more",
-    "source": "inf-sh/skills/agent-tools",
-    "tags": [
-      "agent",
-      "ai"
-    ]
-  },
-  {
-    "name": "agent-ui",
-    "description": "Agent Ui skill for AI agent workflows",
-    "source": "inference-sh-9/skills/agent-ui",
-    "tags": [
-      "agent"
-    ]
-  },
-  {
-    "name": "agentation",
-    "description": "Agent coordination framework for multi-agent task execution",
-    "source": "benjitaylor/agentation/agentation",
-    "tags": [
-      "agent",
-      "ai"
-    ]
-  },
-  {
-    "name": "agentic-development-principles",
-    "description": "Agentic Development Principles skill for AI agent workflows",
-    "source": "supercent-io/skills-template/agentic-development-principles",
-    "tags": [
-      "agent"
-    ]
-  },
-  {
-    "name": "agentic-workflow",
-    "description": "Agentic Workflow skill for AI agent workflows",
-    "source": "supercent-io/skills-template/agentic-workflow",
-    "tags": [
-      "agent"
-    ]
-  },
-  {
     "name": "agentspace",
     "description": "Agentspace skill for AI agent workflows",
     "source": "agentspace-so/skills/agentspace",
     "tags": [
       "agent"
-    ]
-  },
-  {
-    "name": "ai-automation-workflows",
-    "description": "Ai Automation Workflows skill for AI agent workflows",
-    "source": "inference-sh-9/skills/ai-automation-workflows",
-    "tags": [
-      "ai"
     ]
   },
   {
@@ -106,14 +32,6 @@
     ]
   },
   {
-    "name": "ai-content-pipeline",
-    "description": "Ai Content Pipeline skill for AI agent workflows",
-    "source": "inference-sh-9/skills/ai-content-pipeline",
-    "tags": [
-      "marketing"
-    ]
-  },
-  {
     "name": "ai-image-generation",
     "description": "Ai Image Generation skill for AI agent workflows",
     "source": "inference-sh-9/skills/ai-image-generation",
@@ -122,73 +40,17 @@
     ]
   },
   {
-    "name": "ai-marketing-videos",
-    "description": "Ai Marketing Videos skill for AI agent workflows",
-    "source": "inference-sh-9/skills/ai-marketing-videos",
-    "tags": [
-      "marketing"
-    ]
-  },
-  {
-    "name": "ai-music-generation",
-    "description": "Ai Music Generation skill for AI agent workflows",
-    "source": "inference-sh-9/skills/ai-music-generation",
+    "name": "ai-music",
+    "description": "ai music skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/ai-music",
     "tags": [
       "ai"
-    ]
-  },
-  {
-    "name": "ai-podcast-creation",
-    "description": "Ai Podcast Creation skill for AI agent workflows",
-    "source": "inference-sh-9/skills/ai-podcast-creation",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
-    "name": "ai-product-photography",
-    "description": "Ai Product Photography skill for AI agent workflows",
-    "source": "inference-sh-9/skills/ai-product-photography",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
-    "name": "ai-rag-pipeline",
-    "description": "Ai Rag Pipeline skill for AI agent workflows",
-    "source": "inference-sh-9/skills/ai-rag-pipeline",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
-    "name": "ai-seo",
-    "description": "Ai Seo skill for AI agent workflows",
-    "source": "coreyhaines31/marketingskills/ai-seo",
-    "tags": [
-      "seo"
-    ]
-  },
-  {
-    "name": "ai-social-media-content",
-    "description": "Ai Social Media Content skill for AI agent workflows",
-    "source": "inference-sh-9/skills/ai-social-media-content",
-    "tags": [
-      "marketing"
     ]
   },
   {
     "name": "ai-video-generation",
     "description": "Ai Video Generation skill for AI agent workflows",
     "source": "inference-sh-9/skills/ai-video-generation",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
-    "name": "ai-voice-cloning",
-    "description": "Ai Voice Cloning skill for AI agent workflows",
-    "source": "inference-sh-9/skills/ai-voice-cloning",
     "tags": [
       "ai"
     ]
@@ -202,50 +64,9 @@
     ]
   },
   {
-    "name": "angular-component",
-    "description": "Angular component architecture patterns and best practices",
-    "source": "analogjs/angular-skills/angular-component",
-    "tags": [
-      "frontend"
-    ]
-  },
-  {
     "name": "animate",
     "description": "Animate skill for AI agent workflows",
     "source": "pbakaus/impeccable/animate",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "api-design",
-    "description": "Api Design skill for AI agent workflows",
-    "source": "supercent-io/skills-template/api-design",
-    "tags": [
-      "design",
-      "frontend"
-    ]
-  },
-  {
-    "name": "api-documentation",
-    "description": "Api Documentation skill for AI agent workflows",
-    "source": "supercent-io/skills-template/api-documentation",
-    "tags": [
-      "docs"
-    ]
-  },
-  {
-    "name": "app-store-screenshots",
-    "description": "App Store Screenshots skill for AI agent workflows",
-    "source": "inference-sh-9/skills/app-store-screenshots",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "arrange",
-    "description": "Arrange skill for AI agent workflows",
-    "source": "pbakaus/impeccable/arrange",
     "tags": [
       "workflow"
     ]
@@ -256,22 +77,6 @@
     "source": "pbakaus/impeccable/audit",
     "tags": [
       "workflow"
-    ]
-  },
-  {
-    "name": "audit-website",
-    "description": "Security audit and vulnerability scanning for websites",
-    "source": "squirrelscan/skills/audit-website",
-    "tags": [
-      "security"
-    ]
-  },
-  {
-    "name": "authentication-setup",
-    "description": "Authentication Setup skill for AI agent workflows",
-    "source": "supercent-io/skills-template/authentication-setup",
-    "tags": [
-      "security"
     ]
   },
   {
@@ -342,73 +147,6 @@
     ]
   },
   {
-    "name": "backend-testing",
-    "description": "Backend Testing skill for AI agent workflows",
-    "source": "supercent-io/skills-template/backend-testing",
-    "tags": [
-      "testing"
-    ]
-  },
-  {
-    "name": "background-removal",
-    "description": "Background Removal skill for AI agent workflows",
-    "source": "inference-sh-9/skills/background-removal",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "backlink-analyzer",
-    "description": "SEO backlink analysis and link building strategy tool",
-    "source": "aaron-he-zhu/seo-geo-claude-skills/backlink-analyzer",
-    "tags": [
-      "seo"
-    ]
-  },
-  {
-    "name": "bmad-orchestrator",
-    "description": "Bmad Orchestrator skill for AI agent workflows",
-    "source": "supercent-io/skills-template/bmad-orchestrator",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "bolder",
-    "description": "Bolder skill for AI agent workflows",
-    "source": "pbakaus/impeccable/bolder",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "book-cover-design",
-    "description": "Book Cover Design skill for AI agent workflows",
-    "source": "inference-sh-9/skills/book-cover-design",
-    "tags": [
-      "design",
-      "frontend"
-    ]
-  },
-  {
-    "name": "browser-use",
-    "description": "Browser automation CLI for persistent session-based web interactions",
-    "source": "browser-use/browser-use",
-    "skill": "browser-use",
-    "tags": [
-      "agent",
-      "browser"
-    ]
-  },
-  {
-    "name": "case-study-writing",
-    "description": "Case Study Writing skill for AI agent workflows",
-    "source": "inference-sh-9/skills/case-study-writing",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "caveman",
     "description": "Caveman skill for AI agent workflows",
     "source": "juliusbrussee/caveman/caveman",
@@ -449,91 +187,9 @@
     ]
   },
   {
-    "name": "changelog-maintenance",
-    "description": "Changelog Maintenance skill for AI agent workflows",
-    "source": "supercent-io/skills-template/changelog-maintenance",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
-    "name": "character-design-sheet",
-    "description": "Character Design Sheet skill for AI agent workflows",
-    "source": "inference-sh-9/skills/character-design-sheet",
-    "tags": [
-      "design",
-      "frontend"
-    ]
-  },
-  {
-    "name": "chat-ui",
-    "description": "Chat Ui skill for AI agent workflows",
-    "source": "inference-sh-9/skills/chat-ui",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "chatgpt-app-builder",
-    "description": "Build ChatGPT-powered applications with MCP integration",
-    "source": "mcp-use/mcp-use/chatgpt-app-builder",
-    "tags": [
-      "ai",
-      "agent"
-    ]
-  },
-  {
-    "name": "churn-prevention",
-    "description": "Churn Prevention skill for AI agent workflows",
-    "source": "coreyhaines31/marketingskills/churn-prevention",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "clarify",
     "description": "Clarify skill for AI agent workflows",
     "source": "pbakaus/impeccable/clarify",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "clawdirect",
-    "description": "Directory of social web experiences for AI agents — browse, like, and manage listings",
-    "source": "napoleond/clawdirect/clawdirect",
-    "tags": [
-      "agent"
-    ]
-  },
-  {
-    "name": "clawdirect-dev",
-    "description": "Development tools and utilities for ClawDirect directory extensions",
-    "source": "napoleond/clawdirect/clawdirect-dev",
-    "tags": [
-      "agent"
-    ]
-  },
-  {
-    "name": "code-refactoring",
-    "description": "Code Refactoring skill for AI agent workflows",
-    "source": "supercent-io/skills-template/code-refactoring",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "code-review",
-    "description": "Code Review skill for AI agent workflows",
-    "source": "supercent-io/skills-template/code-review",
-    "tags": [
-      "code-review"
-    ]
-  },
-  {
-    "name": "codebase-search",
-    "description": "Codebase Search skill for AI agent workflows",
-    "source": "supercent-io/skills-template/codebase-search",
     "tags": [
       "workflow"
     ]
@@ -547,14 +203,6 @@
     ]
   },
   {
-    "name": "cold-email",
-    "description": "Cold Email skill for AI agent workflows",
-    "source": "coreyhaines31/marketingskills/cold-email",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
     "name": "colorize",
     "description": "Colorize skill for AI agent workflows",
     "source": "pbakaus/impeccable/colorize",
@@ -563,52 +211,11 @@
     ]
   },
   {
-    "name": "competitor-teardown",
-    "description": "Competitor Teardown skill for AI agent workflows",
-    "source": "inference-sh-9/skills/competitor-teardown",
+    "name": "controlnet-pose",
+    "description": "controlnet pose skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/controlnet-pose",
     "tags": [
       "workflow"
-    ]
-  },
-  {
-    "name": "content-repurposing",
-    "description": "Content Repurposing skill for AI agent workflows",
-    "source": "inference-sh-9/skills/content-repurposing",
-    "tags": [
-      "marketing"
-    ]
-  },
-  {
-    "name": "context7",
-    "description": "Retrieve up-to-date documentation for software libraries by querying the Context7 API",
-    "source": "intellectronica/agent-skills/skills/context7",
-    "tags": [
-      "docs",
-      "ai"
-    ]
-  },
-  {
-    "name": "convex",
-    "description": "Convex backend platform patterns and real-time data sync",
-    "source": "waynesutton/convexskills/convex",
-    "tags": [
-      "backend"
-    ]
-  },
-  {
-    "name": "convex-quickstart",
-    "description": "Convex Quickstart skill for AI agent workflows",
-    "source": "get-convex/agent-skills/convex-quickstart",
-    "tags": [
-      "backend"
-    ]
-  },
-  {
-    "name": "copilot-coding-agent",
-    "description": "Copilot Coding Agent skill for AI agent workflows",
-    "source": "supercent-io/skills-template/copilot-coding-agent",
-    "tags": [
-      "agent"
     ]
   },
   {
@@ -620,99 +227,9 @@
     ]
   },
   {
-    "name": "customer-persona",
-    "description": "Customer Persona skill for AI agent workflows",
-    "source": "inference-sh-9/skills/customer-persona",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "data-analysis",
-    "description": "Data Analysis skill for AI agent workflows",
-    "source": "supercent-io/skills-template/data-analysis",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "data-visualization",
-    "description": "Data Visualization skill for AI agent workflows",
-    "source": "inference-sh-9/skills/data-visualization",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "database-schema-design",
-    "description": "Database Schema Design skill for AI agent workflows",
-    "source": "supercent-io/skills-template/database-schema-design",
-    "tags": [
-      "design",
-      "frontend"
-    ]
-  },
-  {
-    "name": "debugging",
-    "description": "Debugging skill for AI agent workflows",
-    "source": "supercent-io/skills-template/debugging",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "delight",
-    "description": "Delight skill for AI agent workflows",
-    "source": "pbakaus/impeccable/delight",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "deploy-to-vercel",
-    "description": "Deploy To Vercel skill for AI agent workflows",
-    "source": "vercel-labs/agent-skills/deploy-to-vercel",
-    "tags": [
-      "devops"
-    ]
-  },
-  {
-    "name": "deployment-automation",
-    "description": "Deployment Automation skill for AI agent workflows",
-    "source": "supercent-io/skills-template/deployment-automation",
-    "tags": [
-      "devops"
-    ]
-  },
-  {
-    "name": "design-md",
-    "description": "Design system documentation and component specification in Markdown",
-    "source": "google-labs-code/stitch-skills/design-md",
-    "tags": [
-      "design",
-      "docs"
-    ]
-  },
-  {
     "name": "develop-userscripts",
     "description": "Develop Userscripts skill for AI agent workflows",
     "source": "xixu-me/skills/develop-userscripts",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "developing-genkit-dart",
-    "description": "Developing Genkit Dart skill for AI agent workflows",
-    "source": "firebase/agent-skills/developing-genkit-dart",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "developing-genkit-js",
-    "description": "Developing Genkit Js skill for AI agent workflows",
-    "source": "firebase/agent-skills/developing-genkit-js",
     "tags": [
       "workflow"
     ]
@@ -726,68 +243,10 @@
     ]
   },
   {
-    "name": "dialogue-audio",
-    "description": "Dialogue Audio skill for AI agent workflows",
-    "source": "inference-sh-9/skills/dialogue-audio",
+    "name": "elevenlabs-music-generation",
+    "description": "elevenlaus music generation skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/elevenlabs-music-generation",
     "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "distill",
-    "description": "Distill skill for AI agent workflows",
-    "source": "pbakaus/impeccable/distill",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "docker-expert",
-    "description": "Docker containerization best practices and multi-stage builds",
-    "source": "sickn33/antigravity-awesome-skills/docker-expert",
-    "tags": [
-      "devops"
-    ]
-  },
-  {
-    "name": "dogfood",
-    "description": "Dogfood skill for AI agent workflows",
-    "source": "vercel-labs/agent-browser/dogfood",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "elevenlabs-music",
-    "description": "Elevenlabs Music skill for AI agent workflows",
-    "source": "inferen-sh/skills/elevenlabs-music",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "elevenlabs-tts",
-    "description": "Elevenlabs Tts skill for AI agent workflows",
-    "source": "inferen-sh/skills/elevenlabs-tts",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "email-design",
-    "description": "Email Design skill for AI agent workflows",
-    "source": "inference-sh-9/skills/email-design",
-    "tags": [
-      "design",
-      "frontend"
-    ]
-  },
-  {
-    "name": "enhance-prompt",
-    "description": "AI prompt enhancement and optimization techniques",
-    "source": "google-labs-code/stitch-skills/enhance-prompt",
-    "tags": [
-      "ai",
       "workflow"
     ]
   },
@@ -795,22 +254,6 @@
     "name": "env-and-assets-bootstrap",
     "description": "Env And Assets Bootstrap skill for AI agent workflows",
     "source": "lllllllama/ai-paper-reproduction-skill/env-and-assets-bootstrap",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "explainer-video-guide",
-    "description": "Explainer Video Guide skill for AI agent workflows",
-    "source": "inference-sh-9/skills/explainer-video-guide",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
-    "name": "extract",
-    "description": "Extract skill for AI agent workflows",
-    "source": "pbakaus/impeccable/extract",
     "tags": [
       "workflow"
     ]
@@ -825,67 +268,11 @@
     ]
   },
   {
-    "name": "file-organization",
-    "description": "File Organization skill for AI agent workflows",
-    "source": "supercent-io/skills-template/file-organization",
+    "name": "face-swap",
+    "description": "face swap skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/face-swap",
     "tags": [
       "workflow"
-    ]
-  },
-  {
-    "name": "firebase-ai-logic",
-    "description": "Firebase Ai Logic skill for AI agent workflows",
-    "source": "supercent-io/skills-template/firebase-ai-logic",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
-    "name": "firebase-app-hosting-basics",
-    "description": "Firebase App Hosting Basics skill for AI agent workflows",
-    "source": "firebase/agent-skills/firebase-app-hosting-basics",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "firebase-auth-basics",
-    "description": "Firebase Auth Basics skill for AI agent workflows",
-    "source": "firebase/agent-skills/firebase-auth-basics",
-    "tags": [
-      "security"
-    ]
-  },
-  {
-    "name": "firebase-basics",
-    "description": "Firebase Basics skill for AI agent workflows",
-    "source": "firebase/agent-skills/firebase-basics",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "firebase-hosting-basics",
-    "description": "Firebase Hosting Basics skill for AI agent workflows",
-    "source": "firebase/agent-skills/firebase-hosting-basics",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "flutter-animations",
-    "description": "Flutter animation patterns and motion design best practices",
-    "source": "madteacher/mad-agents-skills/flutter-animations",
-    "tags": [
-      "frontend"
-    ]
-  },
-  {
-    "name": "flutter-expert",
-    "description": "Flutter framework expertise and cross-platform development patterns",
-    "source": "jeffallan/claude-skills/flutter-expert",
-    "tags": [
-      "frontend"
     ]
   },
   {
@@ -893,15 +280,6 @@
     "description": "Flux 2 Klein skill for AI agent workflows",
     "source": "agentspace-so/runcomfy-agent-skills/flux-2-klein",
     "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "flux-image",
-    "description": "Flux Image skill for AI agent workflows",
-    "source": "inference-sh-9/skills/flux-image",
-    "tags": [
-      "ai",
       "workflow"
     ]
   },
@@ -914,67 +292,11 @@
     ]
   },
   {
-    "name": "fun-brainstorming",
-    "description": "Fun Brainstorming skill for AI agent workflows",
-    "source": "roin-orca/skills/fun-brainstorming",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
-    "name": "gemini-computer-use",
-    "description": "Gemini Computer Use skill for AI agent workflows",
-    "source": "am-will/codex-skills/gemini-computer-use",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "gh-cli",
-    "description": "Gh Cli skill for AI agent workflows",
-    "source": "github/awesome-copilot/gh-cli",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "git-commit",
-    "description": "Git Commit skill for AI agent workflows",
-    "source": "github/awesome-copilot/git-commit",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "git-workflow",
-    "description": "Git Workflow skill for AI agent workflows",
-    "source": "supercent-io/skills-template/git-workflow",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "github-actions-docs",
     "description": "Github Actions Docs skill for AI agent workflows",
     "source": "xixu-me/skills/github-actions-docs",
     "tags": [
       "devops"
-    ]
-  },
-  {
-    "name": "golang-pro",
-    "description": "Go programming best practices, idioms, and performance patterns",
-    "source": "jeffallan/claude-skills/golang-pro",
-    "tags": [
-      "backend"
-    ]
-  },
-  {
-    "name": "google-veo",
-    "description": "Google Veo skill for AI agent workflows",
-    "source": "inference-sh-9/skills/google-veo",
-    "tags": [
-      "workflow"
     ]
   },
   {
@@ -1012,9 +334,9 @@
     ]
   },
   {
-    "name": "grimoire-polymarket",
-    "description": "Grimoire Polymarket skill for AI agent workflows",
-    "source": "franalgaba/grimoire/grimoire-polymarket",
+    "name": "handoff",
+    "description": "handoff skill for AI agent workflows",
+    "source": "mattpocock/skills/handoff",
     "tags": [
       "workflow"
     ]
@@ -1023,14 +345,6 @@
     "name": "happyhorse-1-0",
     "description": "Happyhorse 1 0 skill for AI agent workflows",
     "source": "agentspace-so/runcomfy-agent-skills/happyhorse-1-0",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "harden",
-    "description": "Harden skill for AI agent workflows",
-    "source": "pbakaus/impeccable/harden",
     "tags": [
       "workflow"
     ]
@@ -1045,18 +359,25 @@
     ]
   },
   {
-    "name": "image-to-video",
-    "description": "Image To Video skill for AI agent workflows",
-    "source": "inference-sh-9/skills/image-to-video",
+    "name": "image-inpainting",
+    "description": "image inpainting skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/image-inpainting",
     "tags": [
-      "ai",
-      "workflow"
+      "ai"
     ]
   },
   {
-    "name": "image-upscaling",
-    "description": "Image Upscaling skill for AI agent workflows",
-    "source": "inference-sh-9/skills/image-upscaling",
+    "name": "image-outpainting",
+    "description": "image outpainting skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/image-outpainting",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
+    "name": "image-to-video",
+    "description": "Image To Video skill for AI agent workflows",
+    "source": "inference-sh-9/skills/image-to-video",
     "tags": [
       "ai",
       "workflow"
@@ -1079,31 +400,6 @@
     ]
   },
   {
-    "name": "infsh-cli",
-    "description": "Infsh Cli skill for AI agent workflows",
-    "source": "inferen-sh/skills/infsh-cli",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "interface-design",
-    "description": "User interface design principles and interaction patterns",
-    "source": "dammyjay93/interface-design/interface-design",
-    "tags": [
-      "design",
-      "frontend"
-    ]
-  },
-  {
-    "name": "javascript-sdk",
-    "description": "Javascript Sdk skill for AI agent workflows",
-    "source": "inference-sh-9/skills/javascript-sdk",
-    "tags": [
-      "frontend"
-    ]
-  },
-  {
     "name": "just-scrape",
     "description": "Just Scrape skill for AI agent workflows",
     "source": "scrapegraphai/just-scrape/just-scrape",
@@ -1117,23 +413,6 @@
     "source": "agentspace-so/runcomfy-agent-skills/kling-3-0",
     "tags": [
       "workflow"
-    ]
-  },
-  {
-    "name": "landing-page-design",
-    "description": "Landing Page Design skill for AI agent workflows",
-    "source": "inference-sh-9/skills/landing-page-design",
-    "tags": [
-      "design",
-      "frontend"
-    ]
-  },
-  {
-    "name": "laravel-specialist",
-    "description": "Laravel PHP framework best practices and application patterns",
-    "source": "jeffallan/claude-skills/laravel-specialist",
-    "tags": [
-      "backend"
     ]
   },
   {
@@ -1322,91 +601,17 @@
     ]
   },
   {
-    "name": "linkedin-content",
-    "description": "Linkedin Content skill for AI agent workflows",
-    "source": "inference-sh-9/skills/linkedin-content",
-    "tags": [
-      "marketing"
-    ]
-  },
-  {
-    "name": "llm-council",
-    "description": "Llm Council skill for AI agent workflows",
-    "source": "am-will/codex-skills/llm-council",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
-    "name": "llm-models",
-    "description": "Llm Models skill for AI agent workflows",
-    "source": "inference-sh-9/skills/llm-models",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
-    "name": "log-analysis",
-    "description": "Log Analysis skill for AI agent workflows",
-    "source": "supercent-io/skills-template/log-analysis",
+    "name": "lipsync",
+    "description": "lipsync skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/lipsync",
     "tags": [
       "workflow"
-    ]
-  },
-  {
-    "name": "logo-design-guide",
-    "description": "Logo Design Guide skill for AI agent workflows",
-    "source": "inference-sh-9/skills/logo-design-guide",
-    "tags": [
-      "design",
-      "frontend"
-    ]
-  },
-  {
-    "name": "looker-studio-bigquery",
-    "description": "Looker Studio Bigquery skill for AI agent workflows",
-    "source": "supercent-io/skills-template/looker-studio-bigquery",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "markdown-url",
-    "description": "Markdown Url skill for AI agent workflows",
-    "source": "am-will/codex-skills/markdown-url",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "mastra",
-    "description": "Mastra AI agent framework patterns and workflow orchestration",
-    "source": "mastra-ai/skills/mastra",
-    "tags": [
-      "agent",
-      "ai"
     ]
   },
   {
     "name": "minimal-run-and-audit",
     "description": "Minimal Run And Audit skill for AI agent workflows",
     "source": "lllllllama/ai-paper-reproduction-skill/minimal-run-and-audit",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "monitoring-observability",
-    "description": "Monitoring Observability skill for AI agent workflows",
-    "source": "supercent-io/skills-template/monitoring-observability",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "nano-banana",
-    "description": "Nano Banana skill for AI agent workflows",
-    "source": "inference-sh-9/skills/nano-banana",
     "tags": [
       "workflow"
     ]
@@ -1428,83 +633,9 @@
     ]
   },
   {
-    "name": "neon-postgres",
-    "description": "Neon Postgres skill for AI agent workflows",
-    "source": "neondatabase/agent-skills/neon-postgres",
-    "tags": [
-      "backend"
-    ]
-  },
-  {
-    "name": "newsletter-curation",
-    "description": "Newsletter Curation skill for AI agent workflows",
-    "source": "inference-sh-9/skills/newsletter-curation",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "normalize",
-    "description": "Normalize skill for AI agent workflows",
-    "source": "pbakaus/impeccable/normalize",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "npm-git-install",
-    "description": "Npm Git Install skill for AI agent workflows",
-    "source": "supercent-io/skills-template/npm-git-install",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "obsidian-bases",
-    "description": "Obsidian knowledge base patterns and plugin development",
-    "source": "kepano/obsidian-skills/obsidian-bases",
-    "tags": [
-      "docs",
-      "workflow"
-    ]
-  },
-  {
-    "name": "og-image-design",
-    "description": "Og Image Design skill for AI agent workflows",
-    "source": "inference-sh-9/skills/og-image-design",
-    "tags": [
-      "design",
-      "frontend"
-    ]
-  },
-  {
-    "name": "onboard",
-    "description": "Onboard skill for AI agent workflows",
-    "source": "pbakaus/impeccable/onboard",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "openai-docs-skill",
-    "description": "Openai Docs Skill skill for AI agent workflows",
-    "source": "am-will/codex-skills/openai-docs-skill",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
     "name": "openclaw-secure-linux-cloud",
     "description": "Openclaw Secure Linux Cloud skill for AI agent workflows",
     "source": "xixu-me/skills/openclaw-secure-linux-cloud",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "opencontext",
-    "description": "Opencontext skill for AI agent workflows",
-    "source": "supercent-io/skills-template/opencontext",
     "tags": [
       "workflow"
     ]
@@ -1526,106 +657,9 @@
     ]
   },
   {
-    "name": "overdrive",
-    "description": "Overdrive skill for AI agent workflows",
-    "source": "pbakaus/impeccable/overdrive",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "p-image",
-    "description": "P Image skill for AI agent workflows",
-    "source": "inferen-sh/skills/p-image",
-    "tags": [
-      "ai",
-      "workflow"
-    ]
-  },
-  {
-    "name": "p-video",
-    "description": "P Video skill for AI agent workflows",
-    "source": "inferen-sh/skills/p-video",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "paper-context-resolver",
     "description": "Paper Context Resolver skill for AI agent workflows",
     "source": "lllllllama/ai-paper-reproduction-skill/paper-context-resolver",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "parallel-task",
-    "description": "Parallel Task skill for AI agent workflows",
-    "source": "am-will/codex-skills/parallel-task",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "parallel-task-spark",
-    "description": "Parallel Task Spark skill for AI agent workflows",
-    "source": "am-will/codex-skills/parallel-task-spark",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "pattern-detection",
-    "description": "Pattern Detection skill for AI agent workflows",
-    "source": "supercent-io/skills-template/pattern-detection",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "performance-optimization",
-    "description": "Performance Optimization skill for AI agent workflows",
-    "source": "supercent-io/skills-template/performance-optimization",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "pexo-agent",
-    "description": "Pexo Agent skill for AI agent workflows",
-    "source": "pexoai/pexo-skills/pexo-agent",
-    "tags": [
-      "agent"
-    ]
-  },
-  {
-    "name": "pitch-deck-visuals",
-    "description": "Pitch Deck Visuals skill for AI agent workflows",
-    "source": "inference-sh-9/skills/pitch-deck-visuals",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "plan-harder",
-    "description": "Plan Harder skill for AI agent workflows",
-    "source": "am-will/codex-skills/plan-harder",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "planner",
-    "description": "Planner skill for AI agent workflows",
-    "source": "am-will/codex-skills/planner",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "planning-with-files",
-    "description": "File-based planning and task management for AI agent workflows",
-    "source": "othmanadi/planning-with-files/planning-with-files",
     "tags": [
       "workflow"
     ]
@@ -1639,142 +673,9 @@
     ]
   },
   {
-    "name": "pollinations-ai",
-    "description": "Pollinations Ai skill for AI agent workflows",
-    "source": "supercent-io/skills-template/pollinations-ai",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
-    "name": "press-release-writing",
-    "description": "Press Release Writing skill for AI agent workflows",
-    "source": "inference-sh-9/skills/press-release-writing",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "product-changelog",
-    "description": "Product Changelog skill for AI agent workflows",
-    "source": "inference-sh-9/skills/product-changelog",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "product-hunt-launch",
-    "description": "Product Hunt Launch skill for AI agent workflows",
-    "source": "inference-sh-9/skills/product-hunt-launch",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "product-photography",
-    "description": "Product Photography skill for AI agent workflows",
-    "source": "inference-sh-9/skills/product-photography",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "prompt-engineering",
-    "description": "Prompt Engineering skill for AI agent workflows",
-    "source": "inference-sh-9/skills/prompt-engineering",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
-    "name": "prompt-repetition",
-    "description": "Prompt Repetition skill for AI agent workflows",
-    "source": "supercent-io/skills-template/prompt-repetition",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
-    "name": "python-executor",
-    "description": "Python Executor skill for AI agent workflows",
-    "source": "inference-sh-9/skills/python-executor",
-    "tags": [
-      "backend"
-    ]
-  },
-  {
-    "name": "python-sdk",
-    "description": "Python Sdk skill for AI agent workflows",
-    "source": "inference-sh-9/skills/python-sdk",
-    "tags": [
-      "backend"
-    ]
-  },
-  {
-    "name": "quieter",
-    "description": "Quieter skill for AI agent workflows",
-    "source": "pbakaus/impeccable/quieter",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "qwen-image-2",
-    "description": "Qwen Image 2 skill for AI agent workflows",
-    "source": "toolshell/skills/qwen-image-2",
-    "tags": [
-      "ai",
-      "workflow"
-    ]
-  },
-  {
-    "name": "qwen-image-2-pro",
-    "description": "Qwen Image 2 Pro skill for AI agent workflows",
-    "source": "toolshell/skills/qwen-image-2-pro",
-    "tags": [
-      "ai",
-      "workflow"
-    ]
-  },
-  {
-    "name": "ralph",
-    "description": "Ralph skill for AI agent workflows",
-    "source": "supercent-io/skills-template/ralph",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "ralph-tui-prd",
-    "description": "Generate structured product requirements documents for AI agent execution with ralph-tui",
-    "source": "subsy/ralph-tui/ralph-tui-prd",
-    "tags": [
-      "workflow",
-      "docs"
-    ]
-  },
-  {
-    "name": "react-components",
-    "description": "React component patterns and best practices from Google Labs",
-    "source": "google-labs-code/stitch-skills/react:components",
-    "tags": [
-      "react",
-      "frontend"
-    ]
-  },
-  {
-    "name": "react-native-best-practices",
-    "description": "React Native best practices and performance optimization from Callstack",
-    "source": "callstackincubator/agent-skills/react-native-best-practices",
-    "tags": [
-      "react",
-      "frontend"
-    ]
-  },
-  {
-    "name": "read-github",
-    "description": "Read Github skill for AI agent workflows",
-    "source": "am-will/codex-skills/read-github",
+    "name": "prototype",
+    "description": "prototype skill for AI agent workflows",
+    "source": "mattpocock/skills/prototype",
     "tags": [
       "workflow"
     ]
@@ -1788,28 +689,11 @@
     ]
   },
   {
-    "name": "related-skill",
-    "description": "Related Skill skill for AI agent workflows",
-    "source": "inference-sh-9/skills/related-skill",
+    "name": "relight",
+    "description": "relight skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/relight",
     "tags": [
       "workflow"
-    ]
-  },
-  {
-    "name": "remembering-conversations",
-    "description": "Episodic memory for AI agents to maintain conversation context",
-    "source": "obra/episodic-memory/remembering-conversations",
-    "tags": [
-      "agent",
-      "ai"
-    ]
-  },
-  {
-    "name": "remotion",
-    "description": "Remotion video creation framework patterns from Google Labs",
-    "source": "google-labs-code/stitch-skills/remotion",
-    "tags": [
-      "react"
     ]
   },
   {
@@ -1829,26 +713,9 @@
     ]
   },
   {
-    "name": "responsive-design",
-    "description": "Responsive Design skill for AI agent workflows",
-    "source": "supercent-io/skills-template/responsive-design",
-    "tags": [
-      "design",
-      "frontend"
-    ]
-  },
-  {
-    "name": "revops",
-    "description": "Revops skill for AI agent workflows",
-    "source": "coreyhaines31/marketingskills/revops",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "role-creator",
-    "description": "Role Creator skill for AI agent workflows",
-    "source": "am-will/codex-skills/role-creator",
+    "name": "runcomfy-cli",
+    "description": "runcomfy cli skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/runcomfy-cli",
     "tags": [
       "workflow"
     ]
@@ -1862,22 +729,6 @@
     ]
   },
   {
-    "name": "sales-enablement",
-    "description": "Sales Enablement skill for AI agent workflows",
-    "source": "coreyhaines31/marketingskills/sales-enablement",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "search",
-    "description": "Search skill for AI agent workflows",
-    "source": "tavily-ai/skills/search",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "secure-linux-web-hosting",
     "description": "Secure Linux Web Hosting skill for AI agent workflows",
     "source": "xixu-me/skills/secure-linux-web-hosting",
@@ -1886,52 +737,11 @@
     ]
   },
   {
-    "name": "security-best-practices",
-    "description": "Security best practices and recommended patterns",
-    "source": "supercent-io/skills-template/security-best-practices",
-    "tags": [
-      "security"
-    ]
-  },
-  {
     "name": "seedance-v2",
     "description": "Seedance V2 skill for AI agent workflows",
     "source": "agentspace-so/runcomfy-agent-skills/seedance-v2",
     "tags": [
       "workflow"
-    ]
-  },
-  {
-    "name": "seedance2-api",
-    "description": "Seedance2 video generation API integration and workflow",
-    "source": "hexiaochun/seedance2-api/seedance2-api",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
-    "name": "self-improving-agent",
-    "description": "Self Improving Agent skill for AI agent workflows",
-    "source": "charon-fan/agent-playbook/self-improving-agent",
-    "tags": [
-      "agent"
-    ]
-  },
-  {
-    "name": "seo-content-brief",
-    "description": "Seo Content Brief skill for AI agent workflows",
-    "source": "inference-sh-9/skills/seo-content-brief",
-    "tags": [
-      "seo"
-    ]
-  },
-  {
-    "name": "seo-geo",
-    "description": "Geographic SEO optimization and local search strategies",
-    "source": "resciencelab/opc-skills/seo-geo",
-    "tags": [
-      "seo",
-      "marketing"
     ]
   },
   {
@@ -1952,42 +762,9 @@
     ]
   },
   {
-    "name": "shadcn-ui",
-    "description": "Shadcn Ui skill for AI agent workflows",
-    "source": "google-labs-code/stitch-skills/shadcn-ui",
-    "tags": [
-      "design",
-      "frontend"
-    ]
-  },
-  {
     "name": "simple",
     "description": "Simple skill for AI agent workflows",
     "source": "roin-orca/skills/simple",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "simple-brainstorm",
-    "description": "Simple Brainstorm skill for AI agent workflows",
-    "source": "roin-orca/skills/simple-brainstorm",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
-    "name": "site-architecture",
-    "description": "Site Architecture skill for AI agent workflows",
-    "source": "coreyhaines31/marketingskills/site-architecture",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "skill-standardization",
-    "description": "Skill Standardization skill for AI agent workflows",
-    "source": "supercent-io/skills-template/skill-standardization",
     "tags": [
       "workflow"
     ]
@@ -2001,68 +778,9 @@
     ]
   },
   {
-    "name": "skillshare",
-    "description": "Built-in AI skill for skillshare – helps install, search, and manage skills from the hub",
-    "source": "https://github.com/runkids/skillshare/tree/main/skills/skillshare",
-    "tags": [
-      "skillshare",
-      "agent",
-      "skill"
-    ]
-  },
-  {
-    "name": "social-media-carousel",
-    "description": "Social Media Carousel skill for AI agent workflows",
-    "source": "inference-sh-9/skills/social-media-carousel",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "soultrace",
     "description": "Soultrace skill for AI agent workflows",
     "source": "soultrace-ai/soultrace-skill/soultrace",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "speech-to-text",
-    "description": "Speech To Text skill for AI agent workflows",
-    "source": "inference-sh-9/skills/speech-to-text",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "standup-meeting",
-    "description": "Standup Meeting skill for AI agent workflows",
-    "source": "supercent-io/skills-template/standup-meeting",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "state-management",
-    "description": "State Management skill for AI agent workflows",
-    "source": "supercent-io/skills-template/state-management",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "stitch-loop",
-    "description": "Iterative design-code loop patterns from Google Labs Stitch",
-    "source": "google-labs-code/stitch-skills/stitch-loop",
-    "tags": [
-      "workflow",
-      "design"
-    ]
-  },
-  {
-    "name": "storyboard-creation",
-    "description": "Storyboard Creation skill for AI agent workflows",
-    "source": "inference-sh-9/skills/storyboard-creation",
     "tags": [
       "workflow"
     ]
@@ -2084,107 +802,11 @@
     ]
   },
   {
-    "name": "super-swarm-spark",
-    "description": "Super Swarm Spark skill for AI agent workflows",
-    "source": "am-will/codex-skills/super-swarm-spark",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "swarm-planner",
-    "description": "Swarm Planner skill for AI agent workflows",
-    "source": "am-will/codex-skills/swarm-planner",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "swiftui-expert-skill",
-    "description": "SwiftUI best practices and modern iOS app development patterns",
-    "source": "avdlee/swiftui-agent-skill/swiftui-expert-skill",
-    "tags": [
-      "frontend"
-    ]
-  },
-  {
-    "name": "system-environment-setup",
-    "description": "System Environment Setup skill for AI agent workflows",
-    "source": "supercent-io/skills-template/system-environment-setup",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "talking-head-production",
-    "description": "Talking Head Production skill for AI agent workflows",
-    "source": "inference-sh-9/skills/talking-head-production",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "task-estimation",
-    "description": "Task Estimation skill for AI agent workflows",
-    "source": "supercent-io/skills-template/task-estimation",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "task-planning",
-    "description": "Task Planning skill for AI agent workflows",
-    "source": "supercent-io/skills-template/task-planning",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "tdd",
     "description": "Tdd skill for AI agent workflows",
     "source": "mattpocock/skills/tdd",
     "tags": [
       "testing"
-    ]
-  },
-  {
-    "name": "teach-impeccable",
-    "description": "Teach Impeccable skill for AI agent workflows",
-    "source": "pbakaus/impeccable/teach-impeccable",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "technical-blog-writing",
-    "description": "Technical Blog Writing skill for AI agent workflows",
-    "source": "inference-sh-9/skills/technical-blog-writing",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "technical-writing",
-    "description": "Technical Writing skill for AI agent workflows",
-    "source": "supercent-io/skills-template/technical-writing",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "testing-strategies",
-    "description": "Testing Strategies skill for AI agent workflows",
-    "source": "supercent-io/skills-template/testing-strategies",
-    "tags": [
-      "testing"
-    ]
-  },
-  {
-    "name": "text-to-speech",
-    "description": "Text To Speech skill for AI agent workflows",
-    "source": "inference-sh-9/skills/text-to-speech",
-    "tags": [
-      "workflow"
     ]
   },
   {
@@ -2199,14 +821,6 @@
     "name": "to-prd",
     "description": "To Prd skill for AI agent workflows",
     "source": "mattpocock/skills/to-prd",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "tools-ui",
-    "description": "Tools Ui skill for AI agent workflows",
-    "source": "inference-sh-9/skills/tools-ui",
     "tags": [
       "workflow"
     ]
@@ -2228,36 +842,11 @@
     ]
   },
   {
-    "name": "twitter-thread-creation",
-    "description": "Twitter Thread Creation skill for AI agent workflows",
-    "source": "inference-sh-9/skills/twitter-thread-creation",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "typeset",
-    "description": "Typeset skill for AI agent workflows",
-    "source": "pbakaus/impeccable/typeset",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "tzst",
     "description": "Tzst skill for AI agent workflows",
     "source": "xixu-me/skills/tzst",
     "tags": [
       "workflow"
-    ]
-  },
-  {
-    "name": "ui-component-patterns",
-    "description": "Ui Component patterns and implementation guidelines",
-    "source": "supercent-io/skills-template/ui-component-patterns",
-    "tags": [
-      "design",
-      "frontend"
     ]
   },
   {
@@ -2278,46 +867,6 @@
     ]
   },
   {
-    "name": "user-guide-writing",
-    "description": "User Guide Writing skill for AI agent workflows",
-    "source": "supercent-io/skills-template/user-guide-writing",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "value",
-    "description": "Value skill for AI agent workflows",
-    "source": "hugmouse/skills/value",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "vercel-deploy",
-    "description": "Vercel Deploy skill for AI agent workflows",
-    "source": "supercent-io/skills-template/vercel-deploy",
-    "tags": [
-      "devops"
-    ]
-  },
-  {
-    "name": "vet",
-    "description": "Vet skill for AI agent workflows",
-    "source": "imbue-ai/vet/vet",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "video-ad-specs",
-    "description": "Video Ad Specs skill for AI agent workflows",
-    "source": "inference-sh-9/skills/video-ad-specs",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "video-edit",
     "description": "Video Edit skill for AI agent workflows",
     "source": "agentspace-so/runcomfy-agent-skills/video-edit",
@@ -2326,75 +875,33 @@
     ]
   },
   {
-    "name": "video-prompting-guide",
-    "description": "Video Prompting Guide skill for AI agent workflows",
-    "source": "inference-sh-9/skills/video-prompting-guide",
+    "name": "video-extend",
+    "description": "video extend skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/video-extend",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "video-inpainting",
+    "description": "video inpainting skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/video-inpainting",
     "tags": [
       "ai"
     ]
   },
   {
-    "name": "vue-best-practices",
-    "description": "Vue 3 best practices with Composition API, script setup, and TypeScript",
-    "source": "hyf0/vue-skills/vue-best-practices",
+    "name": "video-outpainting",
+    "description": "video outpainting skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/video-outpainting",
     "tags": [
-      "vue",
-      "frontend"
-    ]
-  },
-  {
-    "name": "vue-debug-guides",
-    "description": "Vue 3 debugging techniques and error handling patterns",
-    "source": "hyf0/vue-skills/vue-debug-guides",
-    "tags": [
-      "vue",
-      "frontend"
+      "ai"
     ]
   },
   {
     "name": "wan-2-7",
     "description": "Wan 2 7 skill for AI agent workflows",
     "source": "agentspace-so/runcomfy-agent-skills/wan-2-7",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "web-accessibility",
-    "description": "Web Accessibility skill for AI agent workflows",
-    "source": "supercent-io/skills-template/web-accessibility",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "web-search",
-    "description": "Web Search skill for AI agent workflows",
-    "source": "inference-sh-9/skills/web-search",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "widgets-ui",
-    "description": "Widgets Ui skill for AI agent workflows",
-    "source": "inference-sh-9/skills/widgets-ui",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "wonda-cli",
-    "description": "Wonda Cli skill for AI agent workflows",
-    "source": "degausai/wonda/wonda-cli",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "workflow-automation",
-    "description": "Workflow Automation skill for AI agent workflows",
-    "source": "supercent-io/skills-template/workflow-automation",
     "tags": [
       "workflow"
     ]
@@ -2421,15 +928,6 @@
     "source": "xixu-me/skills/xget",
     "tags": [
       "workflow"
-    ]
-  },
-  {
-    "name": "youtube-thumbnail-design",
-    "description": "Youtube Thumbnail Design skill for AI agent workflows",
-    "source": "inference-sh-9/skills/youtube-thumbnail-design",
-    "tags": [
-      "design",
-      "frontend"
     ]
   },
   {
