@@ -59,10 +59,19 @@ if [ -z "$skills_json" ] || ! echo "$skills_json" | jq -e '.[0].name' >/dev/null
     const inner = JSON.parse('\"' + payload + '\"');
     const idx = inner.indexOf('\"initialSkills\":');
     const arrStart = idx + '\"initialSkills\":'.length;
+    // State-aware bracket matching: ignore '[' / ']' inside string literals
+    // (e.g. a skill description like \"Support for [Markdown]\"), which would
+    // otherwise unbalance the depth counter and truncate the JSON.
     let depth = 0, i = arrStart;
+    let inStr = false, esc = false;
     for (; i < inner.length; i++) {
-      if (inner[i] === '[') depth++;
-      else if (inner[i] === ']') { depth--; if (depth === 0) break; }
+      const c = inner[i];
+      if (esc) { esc = false; continue; }
+      if (c === '\\\\') { esc = true; continue; }
+      if (c === '\"') { inStr = !inStr; continue; }
+      if (inStr) continue;
+      if (c === '[') depth++;
+      else if (c === ']') { depth--; if (depth === 0) break; }
     }
     console.log(inner.substring(arrStart, i + 1));
   " <<< "$html") || {
@@ -87,7 +96,7 @@ community_file="$SKILLS_DIR/community.json"
 official_names=$(jq -n \
   --slurpfile hub "$HUB_FILE" \
   --slurpfile comm "$community_file" \
-  '([$hub[0].skills[].name] - [$comm[0][].name]) | unique')
+  '([$hub[0].skills[].name] - [($comm[0] // [])[].name]) | unique')
 
 # Ranked candidates: valid names, not already curated, deduped (keep higher rank)
 ranked=$(echo "$top_skills" | jq --argjson official "$official_names" '
