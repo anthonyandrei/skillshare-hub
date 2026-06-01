@@ -46,7 +46,7 @@ skillshare install <source>
 ## Skills Catalog
 
 <!-- CATALOG:START -->
-**225 skills** across 11 categories — browse via `skillshare search --hub` or the Web UI
+**216 skills** across 11 categories — browse via `skillshare search --hub` or the Web UI
 
 ### Frontend (14)
 
@@ -103,10 +103,10 @@ skillshare install <source>
 
 </details>
 
-### Workflow (101)
+### Workflow (96)
 
 <details>
-<summary>Show 101 skills</summary>
+<summary>Show 96 skills</summary>
 
 - [**ace-step**](https://github.com/agentspace-so/runcomfy-agent-skills) — ace step skill for AI agent workflows
 - [**adapt**](https://github.com/pbakaus/impeccable) — Adapt skill for AI agent workflows
@@ -126,7 +126,6 @@ skillshare install <source>
 - [**clarify**](https://github.com/pbakaus/impeccable) — Clarify skill for AI agent workflows
 - [**codex-pet**](https://github.com/agentspace-so/runcomfy-agent-skills) — Codex Pet skill for AI agent workflows
 - [**colorize**](https://github.com/pbakaus/impeccable) — Colorize skill for AI agent workflows
-- [**controlnet-pose**](https://github.com/agentspace-so/runcomfy-agent-skills) — controlnet pose skill for AI agent workflows
 - [**critique**](https://github.com/pbakaus/impeccable) — Critique skill for AI agent workflows
 - [**develop-userscripts**](https://github.com/xixu-me/skills) — Develop Userscripts skill for AI agent workflows
 - [**diagnose**](https://github.com/mattpocock/skills) — Diagnose skill for AI agent workflows
@@ -134,7 +133,6 @@ skillshare install <source>
 - [**elevenlabs-music-generation**](https://github.com/agentspace-so/runcomfy-agent-skills) — elevenlaus music generation skill for AI agent workflows
 - [**env-and-assets-bootstrap**](https://github.com/lllllllama/ai-paper-reproduction-skill) — Env And Assets Bootstrap skill for AI agent workflows
 - [**executing-plans**](https://github.com/obra/superpowers) — Execute implementation plans step-by-step with review checkpoints
-- [**face-swap**](https://github.com/agentspace-so/runcomfy-agent-skills) — face swap skill for AI agent workflows
 - [**find-skills**](https://github.com/vercel-labs/skills) — Discover and install skills from the open agent skills ecosystem
 - [**finishing-a-development-branch**](https://github.com/obra/superpowers) — Complete and integrate development branch work with proper review
 - [**flux-2-klein**](https://github.com/agentspace-so/runcomfy-agent-skills) — Flux 2 Klein skill for AI agent workflows
@@ -166,7 +164,6 @@ skillshare install <source>
 - [**lark-wiki**](https://github.com/larksuite/cli) — Lark Wiki skill for AI agent workflows
 - [**lark-workflow-meeting-summary**](https://github.com/larksuite/cli) — Lark Workflow Meeting Summary skill for AI agent workflows
 - [**lark-workflow-standup-report**](https://github.com/larksuite/cli) — Lark Workflow Standup Report skill for AI agent workflows
-- [**lipsync**](https://github.com/agentspace-so/runcomfy-agent-skills) — lipsync skill for AI agent workflows
 - [**minimal-run-and-audit**](https://github.com/lllllllama/ai-paper-reproduction-skill) — Minimal Run And Audit skill for AI agent workflows
 - [**nano-banana-2**](https://github.com/inference-sh-9/skills) — Nano Banana 2 skill for AI agent workflows
 - [**nano-banana-edit**](https://github.com/agentspace-so/runcomfy-agent-skills) — Nano Banana Edit skill for AI agent workflows
@@ -180,7 +177,6 @@ skillshare install <source>
 - [**readme-i18n**](https://github.com/xixu-me/skills) — Readme I18n skill for AI agent workflows
 - [**relight**](https://github.com/agentspace-so/runcomfy-agent-skills) — relight skill for AI agent workflows
 - [**repo-intake-and-plan**](https://github.com/lllllllama/ai-paper-reproduction-skill) — Repo Intake And Plan skill for AI agent workflows
-- [**runcomfy-cli**](https://github.com/agentspace-so/runcomfy-agent-skills) — runcomfy cli skill for AI agent workflows
 - [**secure-linux-web-hosting**](https://github.com/xixu-me/skills) — Secure Linux Web Hosting skill for AI agent workflows
 - [**seedance-v2**](https://github.com/agentspace-so/runcomfy-agent-skills) — Seedance V2 skill for AI agent workflows
 - [**setup-matt-pocock-skills**](https://github.com/mattpocock/skills) — Setup Matt Pocock Skills skill for AI agent workflows
@@ -201,7 +197,6 @@ skillshare install <source>
 - [**using-superpowers**](https://github.com/obra/superpowers) — Discover and use available superpowers skills at conversation start
 - [**verification-before-completion**](https://github.com/obra/superpowers) — Run verification commands before claiming work is complete or fixed
 - [**video-edit**](https://github.com/agentspace-so/runcomfy-agent-skills) — Video Edit skill for AI agent workflows
-- [**video-extend**](https://github.com/agentspace-so/runcomfy-agent-skills) — video extend skill for AI agent workflows
 - [**wan-2-7**](https://github.com/agentspace-so/runcomfy-agent-skills) — Wan 2 7 skill for AI agent workflows
 - [**write-a-skill**](https://github.com/mattpocock/skills) — Write A Skill skill for AI agent workflows
 - [**writing-plans**](https://github.com/obra/superpowers) — Create structured, step-by-step implementation plans before writing code
@@ -212,16 +207,15 @@ skillshare install <source>
 
 </details>
 
-### Agent (33)
+### Agent (29)
 
 <details>
-<summary>Show 33 skills</summary>
+<summary>Show 29 skills</summary>
 
 - [**agent-browser**](https://github.com/vercel-labs/agent-browser) — Browser automation agent for web page interactions using Playwright
 - [**agentspace**](https://github.com/agentspace-so/skills) — Agentspace skill for AI agent workflows
 - [**ai-avatar-video**](https://github.com/inference-sh-9/skills) — Ai Avatar Video skill for AI agent workflows
 - [**ai-image-generation**](https://github.com/inference-sh-9/skills) — Ai Image Generation skill for AI agent workflows
-- [**ai-music**](https://github.com/agentspace-so/runcomfy-agent-skills) — ai music skill for AI agent workflows
 - [**ai-video-generation**](https://github.com/inference-sh-9/skills) — Ai Video Generation skill for AI agent workflows
 - [**airunway-aks-setup**](https://github.com/microsoft/azure-skills) — Airunway Aks Setup skill for AI agent workflows
 - [**baoyu-article-illustrator**](https://github.com/jimliu/baoyu-skills) — Generate illustrations for articles and blog posts
@@ -237,19 +231,16 @@ skillshare install <source>
 - [**baoyu-slide-deck**](https://github.com/jimliu/baoyu-skills) — Generate presentation slide decks from text content
 - [**baoyu-url-to-markdown**](https://github.com/jimliu/baoyu-skills) — Convert web page content to clean Markdown format
 - [**baoyu-xhs-images**](https://github.com/jimliu/baoyu-skills) — Create image posts optimized for Xiaohongshu (RED) platform
+- [**entra-agent-id**](https://github.com/microsoft/azure-skills) — entra agent id skill for AI agent workflows
 - [**gpt-image-2**](https://github.com/agentspace-so/agent-skills) — Gpt Image 2 skill for AI agent workflows
 - [**gpt-image-edit**](https://github.com/agentspace-so/runcomfy-agent-skills) — Gpt Image Edit skill for AI agent workflows
 - [**image-edit**](https://github.com/agentspace-so/runcomfy-agent-skills) — Image Edit skill for AI agent workflows
-- [**image-inpainting**](https://github.com/agentspace-so/runcomfy-agent-skills) — image inpainting skill for AI agent workflows
-- [**image-outpainting**](https://github.com/agentspace-so/runcomfy-agent-skills) — image outpainting skill for AI agent workflows
 - [**image-to-video**](https://github.com/inference-sh-9/skills) — Image To Video skill for AI agent workflows
 - [**lark-mail**](https://github.com/larksuite/cli) — Lark Mail skill for AI agent workflows
 - [**lark-slides**](https://github.com/larksuite/cli) — Lark Slides skill for AI agent workflows
 - [**mcp-builder**](https://github.com/anthropics/skills) — Build Model Context Protocol (MCP) servers and tools for AI agents
 - [**release-skills**](https://github.com/jimliu/baoyu-skills) — Automate release notes and changelog generation
 - [**running-claude-code-via-litellm-copilot**](https://github.com/xixu-me/skills) — Running Claude Code Via Litellm Copilot skill for AI agent workflows
-- [**video-inpainting**](https://github.com/agentspace-so/runcomfy-agent-skills) — video inpainting skill for AI agent workflows
-- [**video-outpainting**](https://github.com/agentspace-so/runcomfy-agent-skills) — video outpainting skill for AI agent workflows
 
 </details>
 
