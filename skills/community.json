@@ -8,14 +8,6 @@
     ]
   },
   {
-    "name": "adapt",
-    "description": "Adapt skill for AI agent workflows",
-    "source": "pbakaus/impeccable/adapt",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "agentspace",
     "description": "Agentspace skill for AI agent workflows",
     "source": "agentspace-so/skills/agentspace",
@@ -40,6 +32,14 @@
     ]
   },
   {
+    "name": "ai-music",
+    "description": "Ai Music skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/ai-music",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
     "name": "ai-video-generation",
     "description": "Ai Video Generation skill for AI agent workflows",
     "source": "inference-sh-9/skills/ai-video-generation",
@@ -53,22 +53,6 @@
     "source": "microsoft/azure-skills/airunway-aks-setup",
     "tags": [
       "ai"
-    ]
-  },
-  {
-    "name": "animate",
-    "description": "Animate skill for AI agent workflows",
-    "source": "pbakaus/impeccable/animate",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "audit",
-    "description": "Audit skill for AI agent workflows",
-    "source": "pbakaus/impeccable/audit",
-    "tags": [
-      "workflow"
     ]
   },
   {
@@ -179,14 +163,6 @@
     ]
   },
   {
-    "name": "clarify",
-    "description": "Clarify skill for AI agent workflows",
-    "source": "pbakaus/impeccable/clarify",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "codex-pet",
     "description": "Codex Pet skill for AI agent workflows",
     "source": "agentspace-so/runcomfy-agent-skills/codex-pet",
@@ -195,17 +171,9 @@
     ]
   },
   {
-    "name": "colorize",
-    "description": "Colorize skill for AI agent workflows",
-    "source": "pbakaus/impeccable/colorize",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "critique",
-    "description": "Critique skill for AI agent workflows",
-    "source": "pbakaus/impeccable/critique",
+    "name": "controlnet-pose",
+    "description": "Controlnet Pose skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/controlnet-pose",
     "tags": [
       "workflow"
     ]
@@ -235,14 +203,6 @@
     ]
   },
   {
-    "name": "entra-agent-id",
-    "description": "entra agent id skill for AI agent workflows",
-    "source": "microsoft/azure-skills/entra-agent-id",
-    "tags": [
-      "agent"
-    ]
-  },
-  {
     "name": "env-and-assets-bootstrap",
     "description": "Env And Assets Bootstrap skill for AI agent workflows",
     "source": "lllllllama/ai-paper-reproduction-skill/env-and-assets-bootstrap",
@@ -257,6 +217,14 @@
     "tags": [
       "design",
       "frontend"
+    ]
+  },
+  {
+    "name": "face-swap",
+    "description": "Face Swap skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/face-swap",
+    "tags": [
+      "workflow"
     ]
   },
   {
@@ -340,6 +308,22 @@
     "tags": [
       "ai",
       "workflow"
+    ]
+  },
+  {
+    "name": "image-inpainting",
+    "description": "Image Inpainting skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/image-inpainting",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
+    "name": "image-outpainting",
+    "description": "Image Outpainting skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/image-outpainting",
+    "tags": [
+      "ai"
     ]
   },
   {
@@ -569,6 +553,14 @@
     ]
   },
   {
+    "name": "lipsync",
+    "description": "Lipsync skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/lipsync",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "minimal-run-and-audit",
     "description": "Minimal Run And Audit skill for AI agent workflows",
     "source": "lllllllama/ai-paper-reproduction-skill/minimal-run-and-audit",
@@ -609,25 +601,9 @@
     ]
   },
   {
-    "name": "optimize",
-    "description": "Optimize skill for AI agent workflows",
-    "source": "pbakaus/impeccable/optimize",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "paper-context-resolver",
     "description": "Paper Context Resolver skill for AI agent workflows",
     "source": "lllllllama/ai-paper-reproduction-skill/paper-context-resolver",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "polish",
-    "description": "Polish skill for AI agent workflows",
-    "source": "pbakaus/impeccable/polish",
     "tags": [
       "workflow"
     ]
@@ -657,17 +633,17 @@
     ]
   },
   {
-    "name": "remotion-render",
-    "description": "Cloud-based Remotion video rendering via inference.sh",
-    "source": "inference-sh-6/skills/remotion-render",
-    "tags": [
-      "react"
-    ]
-  },
-  {
     "name": "repo-intake-and-plan",
     "description": "Repo Intake And Plan skill for AI agent workflows",
     "source": "lllllllama/ai-paper-reproduction-skill/repo-intake-and-plan",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "runcomfy-cli",
+    "description": "Runcomfy Cli skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/runcomfy-cli",
     "tags": [
       "workflow"
     ]
@@ -730,22 +706,6 @@
     ]
   },
   {
-    "name": "soultrace",
-    "description": "Soultrace skill for AI agent workflows",
-    "source": "soultrace-ai/soultrace-skill/soultrace",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "supabase",
-    "description": "Supabase skill for AI agent workflows",
-    "source": "supabase/agent-skills/supabase",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "supabase-postgres-best-practices",
     "description": "PostgreSQL best practices, query optimization, and security for Supabase",
     "source": "supabase/agent-skills/supabase-postgres-best-practices",
@@ -786,14 +746,6 @@
     ]
   },
   {
-    "name": "twitter-automation",
-    "description": "Twitter Automation skill for AI agent workflows",
-    "source": "inference-sh-9/skills/twitter-automation",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "tzst",
     "description": "Tzst skill for AI agent workflows",
     "source": "xixu-me/skills/tzst",
@@ -824,6 +776,30 @@
     "source": "agentspace-so/runcomfy-agent-skills/video-edit",
     "tags": [
       "workflow"
+    ]
+  },
+  {
+    "name": "video-extend",
+    "description": "Video Extend skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/video-extend",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "video-inpainting",
+    "description": "Video Inpainting skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/video-inpainting",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
+    "name": "video-outpainting",
+    "description": "Video Outpainting skill for AI agent workflows",
+    "source": "agentspace-so/runcomfy-agent-skills/video-outpainting",
+    "tags": [
+      "ai"
     ]
   },
   {
