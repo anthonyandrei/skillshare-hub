@@ -211,15 +211,6 @@
     ]
   },
   {
-    "name": "extract-design-system",
-    "description": "Extract Design System skill for AI agent workflows",
-    "source": "arvindrk/extract-design-system/extract-design-system",
-    "tags": [
-      "design",
-      "frontend"
-    ]
-  },
-  {
     "name": "face-swap",
     "description": "Face Swap skill for AI agent workflows",
     "source": "agentspace-so/runcomfy-agent-skills/face-swap",
@@ -633,6 +624,14 @@
     ]
   },
   {
+    "name": "remotion-render",
+    "description": "Remotion Render skill for AI agent workflows",
+    "source": "qu-skills/skills/remotion-render",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "repo-intake-and-plan",
     "description": "Repo Intake And Plan skill for AI agent workflows",
     "source": "lllllllama/ai-paper-reproduction-skill/repo-intake-and-plan",
@@ -741,6 +740,14 @@
     "name": "triage",
     "description": "Triage skill for AI agent workflows",
     "source": "mattpocock/skills/triage",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "twitter-automation",
+    "description": "Twitter Automation skill for AI agent workflows",
+    "source": "qu-skills/skills/twitter-automation",
     "tags": [
       "workflow"
     ]
