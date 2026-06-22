@@ -48,14 +48,6 @@
     ]
   },
   {
-    "name": "airunway-aks-setup",
-    "description": "Airunway Aks Setup skill for AI agent workflows",
-    "source": "microsoft/azure-skills/airunway-aks-setup",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
     "name": "azure-cloud-migrate",
     "description": "Azure Cloud Migrate management and best practices",
     "source": "microsoft/github-copilot-for-azure/azure-cloud-migrate",
@@ -147,14 +139,6 @@
     ]
   },
   {
-    "name": "caveman-help",
-    "description": "Caveman Help skill for AI agent workflows",
-    "source": "juliusbrussee/caveman/caveman-help",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "caveman-review",
     "description": "Caveman Review skill for AI agent workflows",
     "source": "juliusbrussee/caveman/caveman-review",
@@ -198,14 +182,6 @@
     "name": "elevenlabs-music-generation",
     "description": "elevenlaus music generation skill for AI agent workflows",
     "source": "agentspace-so/runcomfy-agent-skills/elevenlabs-music-generation",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "env-and-assets-bootstrap",
-    "description": "Env And Assets Bootstrap skill for AI agent workflows",
-    "source": "lllllllama/ai-paper-reproduction-skill/env-and-assets-bootstrap",
     "tags": [
       "workflow"
     ]
@@ -323,14 +299,6 @@
     "source": "inference-sh-9/skills/image-to-video",
     "tags": [
       "ai",
-      "workflow"
-    ]
-  },
-  {
-    "name": "impeccable",
-    "description": "Impeccable skill for AI agent workflows",
-    "source": "pbakaus/impeccable/impeccable",
-    "tags": [
       "workflow"
     ]
   },
@@ -552,14 +520,6 @@
     ]
   },
   {
-    "name": "minimal-run-and-audit",
-    "description": "Minimal Run And Audit skill for AI agent workflows",
-    "source": "lllllllama/ai-paper-reproduction-skill/minimal-run-and-audit",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "nano-banana-2",
     "description": "Nano Banana 2 skill for AI agent workflows",
     "source": "inference-sh-9/skills/nano-banana-2",
@@ -592,14 +552,6 @@
     ]
   },
   {
-    "name": "paper-context-resolver",
-    "description": "Paper Context Resolver skill for AI agent workflows",
-    "source": "lllllllama/ai-paper-reproduction-skill/paper-context-resolver",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "prototype",
     "description": "prototype skill for AI agent workflows",
     "source": "mattpocock/skills/prototype",
@@ -619,22 +571,6 @@
     "name": "relight",
     "description": "relight skill for AI agent workflows",
     "source": "agentspace-so/runcomfy-agent-skills/relight",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "remotion-render",
-    "description": "Remotion Render skill for AI agent workflows",
-    "source": "qu-skills/skills/remotion-render",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "repo-intake-and-plan",
-    "description": "Repo Intake And Plan skill for AI agent workflows",
-    "source": "lllllllama/ai-paper-reproduction-skill/repo-intake-and-plan",
     "tags": [
       "workflow"
     ]
@@ -740,14 +676,6 @@
     "name": "triage",
     "description": "Triage skill for AI agent workflows",
     "source": "mattpocock/skills/triage",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "twitter-automation",
-    "description": "Twitter Automation skill for AI agent workflows",
-    "source": "qu-skills/skills/twitter-automation",
     "tags": [
       "workflow"
     ]
