@@ -123,30 +123,6 @@
     ]
   },
   {
-    "name": "caveman-commit",
-    "description": "Caveman Commit skill for AI agent workflows",
-    "source": "juliusbrussee/caveman/caveman-commit",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "caveman-compress",
-    "description": "Caveman Compress skill for AI agent workflows",
-    "source": "juliusbrussee/caveman/caveman-compress",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "caveman-review",
-    "description": "Caveman Review skill for AI agent workflows",
-    "source": "juliusbrussee/caveman/caveman-review",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "codex-pet",
     "description": "Codex Pet skill for AI agent workflows",
     "source": "agentspace-so/runcomfy-agent-skills/codex-pet",
@@ -158,14 +134,6 @@
     "name": "controlnet-pose",
     "description": "Controlnet Pose skill for AI agent workflows",
     "source": "agentspace-so/runcomfy-agent-skills/controlnet-pose",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "develop-userscripts",
-    "description": "Develop Userscripts skill for AI agent workflows",
-    "source": "xixu-me/skills/develop-userscripts",
     "tags": [
       "workflow"
     ]
@@ -576,6 +544,14 @@
     ]
   },
   {
+    "name": "remotion-render",
+    "description": "Remotion Render skill for AI agent workflows",
+    "source": "halt-catch-fire/skills/remotion-render",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "runcomfy-cli",
     "description": "Runcomfy Cli skill for AI agent workflows",
     "source": "agentspace-so/runcomfy-agent-skills/runcomfy-cli",
@@ -676,6 +652,14 @@
     "name": "triage",
     "description": "Triage skill for AI agent workflows",
     "source": "mattpocock/skills/triage",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "twitter-automation",
+    "description": "Twitter Automation skill for AI agent workflows",
+    "source": "halt-catch-fire/skills/twitter-automation",
     "tags": [
       "workflow"
     ]
