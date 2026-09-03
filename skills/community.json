@@ -760,5 +760,15 @@
     "tags": [
       "workflow"
     ]
+  },
+  {
+    "name": "offload",
+    "description": "Delegate parallel coding, research, and review work to headless agy workers with verified outputs",
+    "source": "anthonyandrei/offload",
+    "tags": [
+      "workflow",
+      "agents",
+      "research"
+    ]
   }
 ]
