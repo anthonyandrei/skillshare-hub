@@ -504,6 +504,16 @@
     ]
   },
   {
+    "name": "offload",
+    "description": "Delegate bounded implementation and research work with orchestrator review",
+    "source": "anthonyandrei/offload",
+    "tags": [
+      "workflow",
+      "agents",
+      "research"
+    ]
+  },
+  {
     "name": "openclaw-secure-linux-cloud",
     "description": "Openclaw Secure Linux Cloud skill for AI agent workflows",
     "source": "xixu-me/skills/openclaw-secure-linux-cloud",
@@ -759,16 +769,6 @@
     "source": "mattpocock/skills/zoom-out",
     "tags": [
       "workflow"
-    ]
-  },
-  {
-    "name": "offload",
-    "description": "Delegate parallel coding, research, and review work to headless agy workers with verified outputs",
-    "source": "anthonyandrei/offload",
-    "tags": [
-      "workflow",
-      "agents",
-      "research"
     ]
   }
 ]
